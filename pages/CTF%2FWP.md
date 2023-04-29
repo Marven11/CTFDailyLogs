@@ -1,0 +1,6 @@
+- [[CTF/WP/CTFShow]]
+- [[CTF/WP/BUUCTF]]
+- [[CTF/WP/2022rydCTF]]
+- # 别人的WP
+	- https://www.ctfiot.com/writeup
+	-

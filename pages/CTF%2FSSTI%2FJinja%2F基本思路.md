@@ -1,0 +1,41 @@
+- 首先找到一个拿得到的对象：
+	- 比如说`requests`, `url_for`, `lipsum`, `[]`之类的
+- 然后想办法从它的属性和Item里面翻出敏感函数
+	- 可以利用Python的内置函数`dir`读取一个对象的所有属性
+		- 当然要在本地测试
+	- 一般要经过：
+		- 全局变量`__globals__`
+			- 里面有`__builtins__`
+		- Object的子类`Object.__subclasses__()`
+			- 里面有`subprocess.Popen`
+		- 内置函数`__builtins__`
+			- 里面有`eval`
+			- 还有`open`
+		- `__class__`
+			- 去拿Object
+			  id:: 62f14b2c-3a3b-48bc-add9-b0f7a19979f3
+		- `__init__`
+		- `__mro__`
+			- 去拿Object
+	- 敏感函数一般有：
+		- `os.popen`
+		- `subprocess.Popen`
+		- `eval`
+		- `open`
+- 拿属性时，可能需要用一些绕过技巧
+	- 包括充分利用[语法](https://jinja.palletsprojects.com/en/3.1.x/templates/)中的
+		- filter
+		- test
+		- global function
+	- Jinja提供了多种方式获得字符串和属性
+	- 一旦知道了绕过WAF获取字符串的方法，就可以配合`|attr`获取属性
+	- 一旦知道了绕过WAF获取属性的方法，就可以用`__getitem__`读取物品
+- 最后使用敏感函数读取flag
+	- 可能在根目录
+	- 也可能在`env`或者`app.config`中
+- 上面的思路是通用的。
+	- 无论是
+	- `{{[].__class__.__mro__[1].__subclasses__()[237]('ls',shell=True,stdout=-1).communicate()[0]}}`
+	- 还是
+	- `{{[].__class__.__base__.__subclasses__()[68].__init__.__globals__['os'].popen('ls').read()}}`
+	- 都是这样

@@ -1,0 +1,11 @@
+- # 各类模块
+	- [[CTF/SSTI/Smarty]]
+	- [[CTF/SSTI/Jinja]]
+	- [[CTF/SSTI/Twig]]
+	- [[CTF/SSTI/Tornado]]
+	- [[CTF/SSTI/ERB]]
+	- [[CTF/SSTI/EJS]]
+- # 判断
+- ![](https://s2.loli.net/2022/01/25/cJiYBydvHVbOShe.jpg)
+	- 输入{{7*'7'}}，返回 49 表示是 Twig 模块
+	- 输入{{7*'7'}}，返回 7777777 表示是 Jinja2 模块

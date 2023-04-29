@@ -1,0 +1,11 @@
+- # 施工中
+	- ssrf
+		- `/star1.php?path=http%3A%2F%2F127.0.0.1%2Findex.php`
+		- 有
+			- index.php
+			- ser.php
+		- 用SSRF请求star1.php时会显示ser.php的源码，说明其include了ser.php
+- # 思路
+	- ~~飞舞arjun爆破不出来star1.php的参数~~
+	- 拿到ser.php写反序列化链，通过`/star1.php?c=`提交
+	-

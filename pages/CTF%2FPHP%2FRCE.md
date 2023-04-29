@@ -1,0 +1,16 @@
+- # 命令执行的方式
+	- 反引号
+		- 其中可以使用`$`包含变量
+	- `eval()`/执行**php 语句**
+	- `exec()`
+	- `shell_exec()`
+	- `system()`
+	- `passthru()`
+	- `proc_open()`
+	- `assert()`
+	- `${}`/`${phpinfo()};`
+- # 无参数
+	- [[CTF/PHP/无参数注入]]
+- # 绕过
+	- [[CTF/PHP/RCE的WAF绕过]]
+-

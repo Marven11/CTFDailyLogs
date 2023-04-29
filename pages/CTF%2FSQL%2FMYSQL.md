@@ -1,0 +1,4 @@
+- # mysql的字符串存储机制
+	- [参考](https://zhuanlan.zhihu.com/p/112806366) [例题]([[CTF/WP/BUUCTF/FBCTF2019 Products Manager]])
+	- 对于`VARCHAR(n)`，如果插入的字符串不够长，mysql会在后方插入空格，如果插入的字符串过长，mysql会将其截断
+	-

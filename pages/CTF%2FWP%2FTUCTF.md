@@ -1,0 +1,11 @@
+- 施工中
+- # Vertical Traversal
+	- `/get/../get/emoji.txt`
+		- 有`emoji.txt`的内容
+	- `/get/../get/app.js`
+		- `File not found: app.js`
+	- `/get/../get/appppp.js`
+		- `File not found: appppp.js`
+	- `/get/../get/asdf/../emoji.txt`
+		- 有`emoji.txt`的内容
+	-
