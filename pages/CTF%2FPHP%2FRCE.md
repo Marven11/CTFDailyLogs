@@ -9,6 +9,7 @@
 	- `proc_open()`
 	- `assert()`
 	- `${}`/`${phpinfo()};`
+	- `call_user_func`
 - # 无参数
 	- [[CTF/PHP/无参数注入]]
 - # 绕过
