@@ -21,8 +21,9 @@
 ## base64_decode()
 	- `base64_decode($s)` 会忽略不合法的字符，但 `base64_decode($s, true)` 不会
 ## basename()
+id:: 64572c54-7814-4588-9fec-96dd86e3ab23
 	- ```
-	  basename("config.php/%80") === "config.php"
+	  basename(urldecode("config.php/%80")) === "config.php"
 	  ```
 ## json_decode()
 	- 会转义形如 `\u0061` 的部分

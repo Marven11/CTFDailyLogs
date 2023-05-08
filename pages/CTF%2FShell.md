@@ -1,5 +1,5 @@
-- [[CTF/Shell/绕过]]
-- [[CTF/Shell/WAF]]
+- [[CTF/Shell/WAF绕过]]
+- [[CTF/Shell/WAF示例]]
 -
 - ## 反弹 shell
 - ```shell
