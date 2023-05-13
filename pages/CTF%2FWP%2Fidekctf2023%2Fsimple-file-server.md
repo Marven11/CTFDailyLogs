@@ -25,7 +25,7 @@
 		- 生成所有可能的secret
 		  id:: 63c3b77c-b5b5-4079-a40f-2c005088f6f9
 			- 因为服务器启动时间不够精确，只能这样
-		- 用 [[Flask-Unsign]] 测试所有的secret, 发现只有一个可以解密签名
+		- 用 [[CTF/Flask-Unsign]] 测试所有的secret, 发现只有一个可以解密签名
 		  id:: 63c3b79c-6531-4b4c-833a-d2c4a0691519
 		- 使用正确的secret伪造管理员身份拿到flag
 		  id:: 63c3b85f-9bc5-4586-8bf1-318f562379d7

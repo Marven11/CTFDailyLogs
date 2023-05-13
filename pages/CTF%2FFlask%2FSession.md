@@ -8,7 +8,7 @@
 	  session_serializer = SecureCookieSessionInterface().get_signing_serializer(app)
 	  print(session_serializer.dumps("admin"))
 	  ```
-- 可以用 flask-session-cookie-manager 或者 [[Flask-Unsign]] 解密
+- 可以用 flask-session-cookie-manager 或者 [[CTF/Flask-Unsign]] 解密
 - 也可以用如下代码解密
 	- ```python
 	  #!/usr/bin/env python3

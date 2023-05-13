@@ -5,6 +5,29 @@
 - # header
 	- Client-IP, X-Forwarded-For 和 X-Forward-For 的使用
 		- Client-IP: 127.0.0.1
+		- 类似的header
+			- ```
+			  X-Forwarded-For: 127.0.0.1
+			  X-Forwarded: 127.0.0.1
+			  Forwarded-For: 127.0.0.1
+			  Forwarded: 127.0.0.1
+			  X-Forwarded-Host: 127.0.0.1
+			  X-remote-IP: 127.0.0.1
+			  X-remote-addr: 127.0.0.1
+			  True-Client-IP: 127.0.0.1
+			  X-Client-IP: 127.0.0.1
+			  Client-IP: 127.0.0.1
+			  X-Real-IP: 127.0.0.1
+			  Ali-CDN-Real-IP: 127.0.0.1
+			  Cdn-Src-Ip: 127.0.0.1
+			  Cdn-Real-Ip: 127.0.0.1
+			  CF-Connecting-IP: 127.0.0.1
+			  X-Cluster-Client-IP: 127.0.0.1
+			  WL-Proxy-Client-IP: 127.0.0.1
+			  Proxy-Client-IP: 127.0.0.1
+			  Fastly-Client-Ip: 127.0.0.1
+			  True-Client-Ip: 127.0.0.1
+			  ```
 	- Referer
 		- Referer: http://www.google.com
 - # 301跳转
