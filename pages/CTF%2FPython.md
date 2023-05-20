@@ -2,3 +2,4 @@
 - [[CTF/Bottle]]
 - [[CTF/Python/Pickle]]
 - [[CTF/Python/SSTI]]
+- [[CTF/Python/Pyjail]]
