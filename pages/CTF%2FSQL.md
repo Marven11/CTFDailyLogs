@@ -7,3 +7,6 @@
 	- [[CTF/SQL/MYSQL]]
 	- [[CTF/SQL/sqlite]]
 	- [[CTF/SQL/读写文件]]
+- # 参考
+	- https://www.cnblogs.com/kagari/p/12635654.html#%E5%85%B6%E4%BB%96%E6%8A%A5%E9%94%99%E6%B3%A8%E5%85%A5
+	-

@@ -7,10 +7,8 @@
 - {{embed ((62f4b97a-0660-44b1-82d3-8321bf2fa4bc))}}
 - # MD5查询网站
 	- https://cmd5.la/
-	- https://md5.cc/
-	- https://cn.freemd5.com/index.php
 	- https://pmd5.com/
 	- https://www.35rx.com/
 	- https://www.ttmd5.com/
 	- https://cmd5.com
-	-
+	- http://cn.freemd5.com

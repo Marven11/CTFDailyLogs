@@ -3,6 +3,11 @@
 		- MySQL 中 在在mysql 5.6.34版本以后 secure_file_priv的值默认为NULL ,而 secure_file_priv为null 那么我们就不能导出文件，以下都建立在
 		- secure_file_priv 的默认值被修改为''才能利用，且这个只能手工修改配置文件不能用sql语句，也就是想直接导出需要管理员不知道干了什么帮你修改好这个权限才行。
 		- windows系统在 my.ini的[mysqld]下面加上secure_file_priv = ，linux 的在 /etc/my.cnf 同时读写权限问题就不用说了。
+	- 查询读写权限
+		- ```sql
+		  select file_priv from mysql.user where user='root' and host='localhost';
+		  select @@secure_file_priv; # 默认为NULL，不可读写
+		  ```
 	- `load_file`
 		- ```sql
 		  load_file('/flag.txt')

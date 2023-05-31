@@ -32,6 +32,7 @@
 	- [[CTF/文件写入到RCE]]
 	- [[CTF/数据收集]]
 	- [[CTF/MD5]]
+	- [[CTF/SHA1]]
 	- [[CTF/JWT]]
 	- [[CTF/Unicode]]
 	- [[CTF/默认密码]]
