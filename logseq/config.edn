@@ -23,6 +23,7 @@
  ;; Set a custom date format for journal page title
  ;; Example:
  ;; :journal/page-title-format "EEE, do MMM yyyy"
+ :journal/page-title-format "yyyy年MM月dd日"
 
  ;; Whether to enable hover on tooltip preview feature
  ;; Default is true, you can also toggle this via setting page
