@@ -3,7 +3,7 @@
 - [[CTF/PHP/无引号字符串]]
 - [[CTF/PHP/FFI]]
 - [[CTF/PHP/Phar]]
-- [[CTF/PHP/内置类]]
+- [[CTF/PHP/原生类]]
 - [[CTF/PHP/Session]]
 - [[CTF/PHP/反序列化]]
 - [[CTF/PHP/特殊标签]]

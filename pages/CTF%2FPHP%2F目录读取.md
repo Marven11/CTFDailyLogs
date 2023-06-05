@@ -1,7 +1,1 @@
-- ```php
-  $a=new DirectoryIterator("glob:///*");
-  foreach($a as $f){
-  	echo $f.' ';
-  }
-  ```
--
+- {{embed ((6478aaed-922b-471c-b8d6-ec1b0cb0444d))}}
