@@ -16,6 +16,9 @@
 	  include$_GET['a']
 	  ?>
 	  ```
+- ## is_file()
+	- 该函数检测的时候是以绝对路径来检测的
+	- 如果其中一级目录不存在则返回false
 ## preg_match()
 	- `$` 会忽略末尾的 `%0a`
 ## base64_decode()
