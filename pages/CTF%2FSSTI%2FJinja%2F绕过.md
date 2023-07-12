@@ -1,9 +1,6 @@
 - # 常见绕过手法
 	- `{{`
 		- `{% if ... %}1{% endif %}`
-		- `︸` #CTF/Unicode
-			- [参考](https://blog.csdn.net/rfrder/article/details/115272645)
-			- [更多字符](https://www.compart.com/en/unicode/U+FE38)
 	- 关键字
 		- `{{""["\x5f\x5fclass\x5f\x5f"]}}`
 	- 引号

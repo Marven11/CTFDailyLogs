@@ -9,8 +9,6 @@ tags:: RCE, CTF/Shell/WAF绕过
 		- 也就是`$'`加上以`\`开头的八进制，结尾加上`'`
 	- bash中`${!xxx}`可以将一个变量的值作为变量名
 		- 比如如果`def=abc`且`abc=123`那`${!def}`等价于`${abc}`，其结果是123。
-		-
-		-
 - # payload生成
 	- ```python
 	  def generate(n):

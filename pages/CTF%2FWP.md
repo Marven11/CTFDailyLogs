@@ -2,5 +2,11 @@
 - [[CTF/WP/BUUCTF]]
 - [[CTF/WP/2022rydCTF]]
 - # 别人的WP
+  id:: 6478aaf1-0223-42db-99c0-a095380b1108
 	- https://www.ctfiot.com/writeup
-	-
+	- https://cyc1e183.github.io/
+	- https://fushuling.com/
+		- https://fushuling.com/index.php/2023/05/29/ctfshow%e5%88%b7%e9%a2%98%e8%ae%b0%e5%bd%95%e6%8c%81%e7%bb%ad%e6%9b%b4%e6%96%b0%e4%b8%ad/#header-id-166
+	- http://1.12.48.9/
+	- https://ctf-writeups-archives.gitbook.io/index/
+	- https://boogipop.com/

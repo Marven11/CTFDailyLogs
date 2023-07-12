@@ -39,11 +39,10 @@
   }
   ```
 - ## 传入变量名转换
-  
-  如果变量名中有 `.` 或者空格，那 PHP 会将其转换成下划线
-- ## $ _ SERVER
+- 如果变量名中有 `.` 或者空格，那 PHP 会将其转换成下划线
+- ## $_SERVER
 - `$_SERVER['QUERY_STRING']` 不会进行 url 转义
-- ## $ _ REQUEST
+- ## $_REQUEST
 - `$_REQUEST` 中 post 的优先级更高
 - 由 `phpinfo` 中的 `request_order` 和 `variables_order` 定义
 -

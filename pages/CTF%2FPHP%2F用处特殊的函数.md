@@ -21,6 +21,7 @@
 	- 如果其中一级目录不存在则返回false
 ## preg_match()
 	- `$` 会忽略末尾的 `%0a`
+	- [[CTF/PHP/正则匹配回溯次数绕过]]
 ## base64_decode()
 	- `base64_decode($s)` 会忽略不合法的字符，但 `base64_decode($s, true)` 不会
 ## basename()
