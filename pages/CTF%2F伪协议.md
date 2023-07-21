@@ -1,4 +1,4 @@
-- [官方文档](https://www.php.net/manual/en/wrappers.php)
+- [PHP官方文档](https://www.php.net/manual/en/wrappers.php)
 - `php://`
 	- 各种编码的加解密
 		- ```
@@ -65,8 +65,10 @@
 	- java 的`file://`可以读取目录
 	- 能用`file://`的地方有时可以不用`file://`, 直接读取
 		- 比如`file:///etc/passwd`和`/etc/passwd`
-- 有关file_get_contents()函数的一个trick，可以看作是SSRF的一个黑魔法，当PHP的 file_get_contents() 函数在遇到不认识的伪协议头时候会将伪协议头当做文件夹，造成目录穿越漏洞，这时候只需不断往上跳转目录即可读到根目录的文件。
-	- ```
-	  httpsssss://../../../../../../etc/passwd
-	  httpsssss://abc../../../../../../etc/passwd
-	  ```
+- 其他
+	- 有关file_get_contents()函数的一个trick，可以看作是SSRF的一个黑魔法，当PHP的 file_get_contents() 函数在遇到不认识的伪协议头时候会将伪协议头当做文件夹，造成目录穿越漏洞，这时候只需不断往上跳转目录即可读到根目录的文件。
+		- ```
+		  httpsssss://../../../../../../etc/passwd
+		  httpsssss://abc../../../../../../etc/passwd
+		  ```
+	- 在很多时候伪协议都是支持URL编码的，可以用来绕过关键字检测
