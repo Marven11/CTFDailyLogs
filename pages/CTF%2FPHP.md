@@ -9,6 +9,8 @@
 	- [[CTF/PHP/WAF绕过]]
 	- [[CTF/PHP/php.ini绕过]]
 	- [[CTF/PHP/弱类型]]
+- # 反混淆
+	- [[CTF/PHP/反混淆]]
 - # 语法特性
 	- [[CTF/PHP/各类函数和语法特性]]
 		-

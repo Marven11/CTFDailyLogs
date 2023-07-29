@@ -1,3 +1,5 @@
+tags:: CTF/Python
+
 - > [参考](https://xz.aliyun.com/t/7012)
 - # 构造恶意Pickle文件
 	- 某些特定的 Python 代码可以直接被转成 Pickle

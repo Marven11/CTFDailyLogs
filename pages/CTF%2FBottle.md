@@ -1,3 +1,5 @@
+tags:: CTF/Python
+
 - 一个python的http server框架
 - # 模板
 	- 模板文件放在`views/`文件夹中，文件名为`.html`

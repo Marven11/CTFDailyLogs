@@ -1,3 +1,5 @@
+tags:: CTF/Python
+
 - [[CTF/SSTI/Jinja]]
 - [[CTF/SSTI/Twig]]
 - [[CTF/SSTI/Tornado]]

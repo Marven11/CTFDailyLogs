@@ -3,6 +3,7 @@ tags:: CTF/RCE, werkzeug
 - https://ctf.anzu.link/pages/204626/
 - # 原理
 	- 读取到某些敏感信息后，利用敏感信息算出和受害者同样的PIN, 然后使用PIN控制flask执行命令
+	- 有时没开debug模式，也可以通过`/console`看到终端
 	- 貌似对werkzeug通用
 - # PIN生成方法
 	- PIN生成代码在`/home/user/.local/lib/python3.10/site-packages/werkzeug/debug/__init__.py`这个文件内
@@ -16,6 +17,7 @@ tags:: CTF/RCE, werkzeug
 	- `private_bits`
 		- `[0]`: 十进制表示的服务器MAC
 			- 可以用`int("00:16:3e:5e:6c:00".replace(":", ""), 16)`转换
+			- 一般在对应网卡（如 eth0）的文件中：`/sys/class/net/eth0/address`
 		- `[1]`: 基于两个文件内容生成，各个OS的生成方法不同，以下是Linux的生成方法：
 			- 获取"/etc/machine-id"或"/proc/sys/kernel/random/boot_id"的内容
 			- 获取/proc/self/cgroup的内容，然后按照`/`分段，获取最后一段

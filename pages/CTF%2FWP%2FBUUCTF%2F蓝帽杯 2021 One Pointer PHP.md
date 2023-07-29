@@ -24,3 +24,4 @@
 	- 提权
 		- `find / -perm -u=s -type f 2>/dev/null`发现php有suid文件，可以通过绕过php设置的限制读取flag
 		- 绕过php的限制： ((63ea6ed9-e1e8-447f-bd58-356b4589061c))
+			- -

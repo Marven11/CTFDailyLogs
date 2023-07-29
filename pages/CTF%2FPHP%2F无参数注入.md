@@ -23,7 +23,7 @@
   
   end(str_split(hebrevc(crypt(next(hash_algos())))))
   
-  chr(ord(crypt(serialize(array()))))）
+  chr(ord(crypt(serialize(array()))))
   ```
 - ### 其他
 - ```

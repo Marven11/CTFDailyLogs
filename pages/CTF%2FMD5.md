@@ -4,7 +4,8 @@
 	- `0e215962017`
 	- `0e648480234123608719206828286222`
 - # HashPump
-- {{embed ((62f4b97a-0660-44b1-82d3-8321bf2fa4bc))}}
+  id:: 64b5744c-69e1-4d03-9fc1-87242bf9d487
+- {{embed ((62f4b96a-c4f5-425c-997f-bafd13e8a5c0))}}
 - # MD5查询网站
 	- https://cmd5.la/
 	- https://pmd5.com/
