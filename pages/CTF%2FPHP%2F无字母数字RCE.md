@@ -23,6 +23,5 @@ tags:: CTF/RCE
 	  ```
 - # 方式二
 	- 使用异或、取反等操作
-	- {{embed ((63bc02d6-35cc-4fb7-9f4e-21386299fd6f))}}
 - # 方式三
 	- [[CTF/WP/CTFShow/web57]]

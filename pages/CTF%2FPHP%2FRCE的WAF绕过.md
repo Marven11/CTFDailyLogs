@@ -19,6 +19,7 @@ tags:: CTF/RCE, CTF/PHP/WAF绕过， CTF/PHP/无字母数字RCE
 	  $b = "asd"
 	  echo($$a) // 输出asd
 	  ```
+- 使用不可见字符作为变量名
 - glob
 	- ```
 	  `?><?=`. /???/????????[@-[]`?>`	

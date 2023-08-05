@@ -31,4 +31,7 @@
 - # 解混淆
 	- https://blog.csdn.net/weixin_43411585/article/details/123437953
 	- https://blog.csdn.net/freeking101/article/details/121668637
--
+- # EJS
+	- [[CTF/SSTI/EJS]]
+	- 原型链污染
+		- [[CTF/WP/CTFShow/web341]]

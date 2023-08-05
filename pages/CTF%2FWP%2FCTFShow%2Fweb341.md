@@ -1,3 +1,5 @@
+tags:: CTF/JS
+
 - EJS原型链污染
 - payload:
 	- ```json

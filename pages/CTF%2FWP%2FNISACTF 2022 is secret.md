@@ -1,4 +1,5 @@
 - # 思路
+  id:: 64b57451-c669-40ab-98ed-c8de91a1fc2e
 	- 通过报错读取加密密钥+SSTI
 - # 报错
 	- 猜出SSTI URI为`/secret`，参数为`secret`

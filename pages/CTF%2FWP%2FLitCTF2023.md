@@ -30,7 +30,7 @@
 	- 题目环境为flask, 猜测需要flask解密cookie
 	- 题目没有明显漏洞，secret应该只能猜出
 	- 猜测secret为`LitCTF`，使用 [[CTF/Flask-Unsign]] 解密成功
-	- 使用(Flask-Unsign)[[[CTF/Flask-Unsign]]]即可伪造cookie, 提交即可拿到flag
+	- 使用[Flask-Unsign]([[CTF/Flask-Unsign]])即可伪造cookie, 提交即可拿到flag
 		- ```shell
 		  flask-unsign -s --secret LitCTF --cookie '{"name":"admin"}'
 		  ```

@@ -45,3 +45,5 @@
 		-
 - 快速反序列化：参考[[CTF/WP/数博会 贵阳杯]]
 - 自定义序列化对象在序列化后以C开头，[例题](((64b2aacc-598b-4be7-b7d4-48230820277e)))
+- 可以使用[PHPGGC](https://github.com/ambionics/phpggc)自动构建ThinkPHP, Lavaral等的反序列化payload
+-
