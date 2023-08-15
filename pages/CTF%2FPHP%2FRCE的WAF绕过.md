@@ -32,3 +32,5 @@ tags:: CTF/RCE, CTF/PHP/WAF绕过， CTF/PHP/无字母数字RCE
 	- log
 - [[CTF/PHP/无字母数字RCE]]
 - [[CTF/PHP/特殊标签]]
+- # webshell绕WAF技巧
+	- https://github.com/AabyssZG/WebShell-Bypass-Guide
