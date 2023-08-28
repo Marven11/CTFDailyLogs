@@ -72,3 +72,5 @@
 		  httpsssss://abc../../../../../../etc/passwd
 		  ```
 	- 在很多时候伪协议都是支持URL编码的，可以用来绕过关键字检测
+- `phar://`
+	- [[CTF/PHP/Phar]]

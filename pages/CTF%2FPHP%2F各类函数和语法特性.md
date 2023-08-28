@@ -28,6 +28,8 @@
 		  ```
 	- 绕过
 		- https://blog.csdn.net/jvkyvly/article/details/120197390#t10
+		- [[CTF/PHP/绕过disable_function]]
+		-
 - # LD_PRELOAD
 	- ```
 	  #include <stdlib.h>

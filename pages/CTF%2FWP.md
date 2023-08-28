@@ -3,6 +3,7 @@
 - [[CTF/WP/2022rydCTF]]
 - # 别人的WP
   id:: 6478aaf1-0223-42db-99c0-a095380b1108
+	- https://www.lxscloud.top/2022/04/15/PHP-Bypass-disable_function/
 	- https://www.ctfiot.com/writeup
 	- https://cyc1e183.github.io/
 	- https://fushuling.com/
@@ -11,3 +12,4 @@
 	- https://ctf-writeups-archives.gitbook.io/index/
 	- https://boogipop.com/
 	- https://tttang.com/
+	- https://amiaaaz.github.io/

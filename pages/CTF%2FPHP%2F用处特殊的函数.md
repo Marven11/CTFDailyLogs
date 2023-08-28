@@ -64,3 +64,6 @@ id:: 645dbc96-bb3a-4052-8764-5d425ac10179
 		- 虽然PHP没有完全按照RFC 3696进行检测，但支持上述第2种写法。所以，我们可以利用之绕过FILTER_VALIDATE_EMAIL的检测。
 		- 也就是说`"@aaa'"@example.com`这个邮箱是合法的
 		- [参考](https://www.leavesongs.com/PENETRATION/some-tricks-of-attacking-lnmp-web-application.html)
+- ## realpath()
+	- 会将软链接解析成真实的路径，但是不会解析伪协议，所以会将`file:///flag.txt`解析成`file:`文件夹下的`flag.txt`
+	-

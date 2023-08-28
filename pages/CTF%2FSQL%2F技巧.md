@@ -87,3 +87,6 @@
 	- ```mysql
 	  insert into test (id, name) values (2, '0' or '1');
 	  ```
+- # 攻击where pass=md5($pass, true)
+	- [参考](https://www.cnblogs.com/tqing/p/11852990.html)
+	- `ffifdyop`在md5编码后会变成hex格式的`'or'6乱码`

@@ -16,7 +16,7 @@
 	- 任意文件读取：软链接攻击
 	  id:: 63c3b277-fdc4-479f-974a-abc0cf1a9fc4
 		- 在zip包内保存一个软链接，然后再让服务器读取这个软链接即可读取任意文件
-		- 可以使用 ((63c3a891-f453-463c-a33c-571e51441127)) 读取任意文件
+		- 可以使用 [[CTF/Zip]] 读取任意文件
 			- `ln -s /app/config.py file && zip -ry zip.zip file && base64 -w 0 zip.zip`
 		- 无权读取flag文件
 	- 主要思路：
