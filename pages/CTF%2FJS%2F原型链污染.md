@@ -46,4 +46,5 @@
 	  console.log(o3.b)
 	  ```
 	- 因为JS会将第二行的`__proto__`识别成一个键
-	-
+- # EJS
+	- [[CTF/JS/EJS的原型链污染]]

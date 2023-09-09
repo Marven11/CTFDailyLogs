@@ -1,4 +1,4 @@
-- ## Linux杂项
+# Linux杂项
 	- /etc/shadow
 		- 可以使用 John the Ripper 解密
 		- 每行密码的格式：
@@ -26,7 +26,8 @@
 		- 可能保存着当前节点所在网络的信息
 	- history
 		- add space to avoid adding command to history
-### proc
+- # proc目录
+	- 其中有很多linux内核虚拟出来的文件和目录
 	- /proc/self/cwd
 		- 当前程序所在的目录
 	- /proc/self/fd/3

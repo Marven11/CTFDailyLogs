@@ -13,3 +13,5 @@
 	- https://boogipop.com/
 	- https://tttang.com/
 	- https://amiaaaz.github.io/
+		- https://amiaaaz.github.io/2023/03/28/linectf2023-wp/
+	- https://note.tonycrane.cc/writeups/rctf2022/

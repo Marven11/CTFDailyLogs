@@ -17,4 +17,5 @@
   $a=new SplFileObject("/flag");
   echo $a;
   ```
--
+- `php -S`可能会造成源码泄漏
+	- 例子： ((64f2a4b1-ae66-4b1e-9a95-744f30a923cb))

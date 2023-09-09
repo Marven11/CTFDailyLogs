@@ -27,7 +27,7 @@ tags:: CTF/RCE, CTF/PHP/WAF绕过， CTF/PHP/无字母数字RCE
 	  `?><?=`. /???/????????[@-[]`?>`	
 	  ```
 	- 需要配合文件上传,具体见[[CTF/PHP/无字母数字RCE]]
-#### 从其他地方读取
+- #### 从其他地方读取
 	- 其他未被过滤的参数(GET 或者 POST)
 	- session_id()
 	- cookie
@@ -35,4 +35,4 @@ tags:: CTF/RCE, CTF/PHP/WAF绕过， CTF/PHP/无字母数字RCE
 - [[CTF/PHP/无字母数字RCE]]
 - [[CTF/PHP/特殊标签]]
 - # webshell绕WAF技巧
-	- https://github.com/AabyssZG/WebShell-Bypass-Guide
+	- [[CTF/PHP/webshell收集]]

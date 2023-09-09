@@ -1,10 +1,11 @@
-- # 各类模块
+# 各类模块
 	- [[CTF/SSTI/Smarty]]
 	- [[CTF/SSTI/Jinja]]
 	- [[CTF/SSTI/Twig]]
 	- [[CTF/SSTI/Tornado]]
 	- [[CTF/SSTI/ERB]]
 	- [[CTF/SSTI/EJS]]
+	- [[CTF/SSTI/Golang_text_template]]
 - # 判断
 - ![](https://s2.loli.net/2022/01/25/cJiYBydvHVbOShe.jpg)
 	- 输入{{7*'7'}}，返回 49 表示是 Twig 模块

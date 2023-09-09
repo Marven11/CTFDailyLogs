@@ -1,1 +1,2 @@
--
+- https://github.com/AabyssZG/WebShell-Bypass-Guide
+- https://github.com/LandGrey/webshell-detect-bypass/tree/master/webshell/php

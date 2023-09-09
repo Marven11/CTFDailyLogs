@@ -1,4 +1,4 @@
-tags:: CTF/JS
+tags:: CTF/JS, CTF/JS/原型链污染, CTF/NodeJS/EJS
 
 - EJS原型链污染
 - payload:

