@@ -1,9 +1,11 @@
+tags:: [[CTF/Python/Python的原型链污染]], [[CTF/Flask/Debug模式RCE]]
+
 - > 复现
 - # 思路
 	- 使用[类型污染]([[CTF/Python/Python的原型链污染]])污染`__file__`实现任意读取文件
 	- 对`/console`路径打[[CTF/Flask/Debug模式RCE]]
 - # 对象类型污染 -> 任意文件读取
-	- 污染__globals__下的__file__即可
+	- 污染`__globals__`下的`__file__`即可
 	- ```python
 	  def read_file(pathname):
 	  

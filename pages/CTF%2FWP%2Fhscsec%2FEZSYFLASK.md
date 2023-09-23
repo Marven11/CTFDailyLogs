@@ -1,3 +1,5 @@
+tags:: [[CTF/Flask/Debug模式RCE]]
+
 - # 思路
 	- 利用文件读取漏洞，计算flask debug pin实现RCE
 	- 参考[[CTF/Flask/Debug模式RCE]]

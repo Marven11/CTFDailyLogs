@@ -31,7 +31,7 @@
 		- [[CTF/PHP/绕过disable_function]]
 		-
 - # LD_PRELOAD
-	- ```
+	- ```c
 	  #include <stdlib.h>
 	  #include <stdio.h>
 	  #include <string.h>

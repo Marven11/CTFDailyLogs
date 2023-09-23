@@ -1,3 +1,6 @@
+tags:: [[CTF/JSON]]
+
+-
 - # 思路
 	- 利用任意文件读取漏洞得到源码
 	  collapsed:: true

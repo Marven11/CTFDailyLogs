@@ -1,3 +1,6 @@
+tags:: [[CTF/SSRF]], [[CTF/Redis]]
+
+-
 - # 思路
 	- 绕过题目的IP检测进行SSRF, 先打hint.php, 然后打带密码的redis
 - # 绕过IP检测

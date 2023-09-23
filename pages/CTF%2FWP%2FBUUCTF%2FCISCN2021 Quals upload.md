@@ -1,3 +1,4 @@
+-
 - # 整体结构
 	- 看到`index.php`接收上传文件到`image/`文件夹，`example.php`会解压并处理图片，结果保存到到`example/`文件夹
 	- `index.php`判断文件是不是图片，过滤文件名，且判断文件的`width`和`height`是否为1

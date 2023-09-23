@@ -1,3 +1,5 @@
+tags:: [[CTF/PHP/htaccess]]
+
 - # WP
 	-
 	- 利用上传[`.htaccess`]([[CTF/PHP/htaccess]])读flag文件

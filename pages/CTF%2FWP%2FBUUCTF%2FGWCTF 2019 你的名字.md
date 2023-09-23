@@ -1,3 +1,5 @@
+tags:: [[CTF/SSTI/Jinja]]
+
 - # 思路
 	- 打带过滤的jinja2
 	- 题目会替换config等关键词

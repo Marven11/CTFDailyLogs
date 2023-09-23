@@ -1,4 +1,4 @@
-CTF/WP/CTFShow/web374
+tags:: CTF/XXE
 
 - # 思路
 	- 无回显XXE [[CTF/XXE]]

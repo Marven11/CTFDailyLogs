@@ -1,4 +1,5 @@
 -
+- tags:: [[CTF/PHP/WAF绕过]]
 - fuzz可得：
 	- `"is_nan"^"64" === "_G"`
 	- `"tan"^"15" === "ET"`

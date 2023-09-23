@@ -1,4 +1,4 @@
-CTF/WP/CTFShow/web377
+tags:: CTF/XXE
 
 - # 思路
 	- XXE,题目过滤了`http`

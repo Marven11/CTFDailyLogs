@@ -1,5 +1,5 @@
 -
-- [[JS/NodeJS]]
+- tags:: [[CTF/NodeJS]]
 -
 - # 施工中
 	- ```js

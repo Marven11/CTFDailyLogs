@@ -1,3 +1,5 @@
+tags:: [[CTF/整数溢出]]
+
 - # 题目
 	- `/upgrade`接口会根据`name`获取对应的cost(`int32`)，^^如果`name`是`Donate`就将其cost乘以`quantity`^^，最后让功德减去价格，得到新的功德值
 		- 其中`Donate`对应的cost是10

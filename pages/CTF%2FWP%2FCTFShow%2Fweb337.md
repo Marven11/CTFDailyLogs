@@ -1,4 +1,4 @@
-CTF/WP/CTFShow/web337
+tags:: CTF/JS/弱类型
 
 - ```js
   var express = require('express');

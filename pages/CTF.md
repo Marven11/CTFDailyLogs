@@ -6,4 +6,5 @@ tags:: 计算机, Hack
 	- [[CTF/比赛]]
 - ## 出题
 	- [[CTF/2022rydCTF]]
+	- [[2023ryd]]
 -

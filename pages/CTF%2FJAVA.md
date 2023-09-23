@@ -30,3 +30,6 @@
 	- `jadx`: `jadx a.class`
 - # 伪协议
 	- `file://`可以读取文件夹
+- # OGNL
+	- https://cloud.tencent.com/developer/article/1554322
+	-

@@ -1,3 +1,5 @@
+tags:: [[CTF/PHP/RCE]]
+
 - 任意include,  ((63bc02d6-ea56-4c2a-a494-0cb277531dba)) 秒了
 - 这题使用的伪协议后resource文件中的尖括号貌似会影响RCE，需要用`strip_tags`这个filter去掉
 - payload

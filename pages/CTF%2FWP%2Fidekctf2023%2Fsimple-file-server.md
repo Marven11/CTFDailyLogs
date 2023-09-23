@@ -1,3 +1,5 @@
+tags:: [[CTF/Flask]], [[CTF/Zip]]
+
 - # 题解
 	- 题目源码解析:`app.py`
 		- `/login`登陆接口

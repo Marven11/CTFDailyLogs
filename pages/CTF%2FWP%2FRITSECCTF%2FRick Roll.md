@@ -1,3 +1,5 @@
+tags:: [[CTF/数据收集]]
+
 - # 思路
 	- 数据泄漏
 	- 首先`wget -r https://rickroll-web.challenges.ctf.ritsec.club/1.html`

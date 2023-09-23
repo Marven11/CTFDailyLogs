@@ -1,4 +1,4 @@
-tags:: CTF/伪协议, CTF/RCE
+tags:: CTF/伪协议, CTF/RCE, CTF/PHP/CGI
 
 - Gopher 伪协议 [[CTF/伪协议]]打FastCGI
 - # 反序列化

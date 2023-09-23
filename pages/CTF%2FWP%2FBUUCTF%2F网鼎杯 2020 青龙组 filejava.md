@@ -1,3 +1,5 @@
+tags:: [[CTF/JAVA]]
+
 - # 过程
 	- 爆破下载接口
 		- ```python

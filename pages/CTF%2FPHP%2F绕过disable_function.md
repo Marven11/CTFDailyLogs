@@ -1,4 +1,4 @@
-- # 主要思路
+# 主要思路
 	- 使用环境变量等方式控制php执行c库中的函数，从而绕过php自带的disable_function安全机制
 - # 参考
 	- https://www.lxscloud.top/2022/04/15/PHP-Bypass-disable_function/
@@ -19,7 +19,7 @@
 			  		system("ls / > /tmp/t.txt"); // payload在这
 			  	} else {
 			  		return 0;
-			  	}	
+			  	}
 			  }
 			  ```
 			- ```shell

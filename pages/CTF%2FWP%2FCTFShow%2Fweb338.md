@@ -1,4 +1,4 @@
-CTF/WP/CTFShow/web338
+tags:: CTF/JS/原型链污染
 
 - [源码](https://ctfshow.lanzoui.com/iAV6Xjs9bzc)
 - /login

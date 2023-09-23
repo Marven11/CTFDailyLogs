@@ -1,3 +1,5 @@
+tags:: [[CTF/Zip]], [[CTF/Golang]]
+
 - # 思路
 	- 上传并解压zip文件可以实现任意文件写入
 	- 写入gob文件可以获取admin权限

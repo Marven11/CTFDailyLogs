@@ -9,6 +9,7 @@ tags:: CTF/RCE, CTF/Shell
 	  PROMPT_COMMAND='id' dash #退出dash的时候会执行
 	  ```
 - # bash
+  id:: 64bbf5e5-6ddf-4ff6-9d7f-ba6bc9d95262
 	- ```shell
 	  BASH_ENV='$(id 1>&2)' bash -c 'echo hello'# shell_name为bash时触发
 	  PROMPT_COMMAND='id' bash	#立即执行,因为每次换行后会换到一个新的bashshell
