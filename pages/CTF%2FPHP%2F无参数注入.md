@@ -1,4 +1,4 @@
-- ## 无参数注入
+## 无参数注入
 - ```
   scandir 
   var_dump 
@@ -17,13 +17,16 @@
   ```
 - ## 可用payload
 - ```
+  点
   pos(localeconv())
-  
   next(str_split(zend_version()))
-  
+  1
   end(str_split(hebrevc(crypt(next(hash_algos())))))
   
   chr(ord(crypt(serialize(array()))))
+  
+  Ua
+  next(getallheaders())
   ```
 - ### 其他
 - ```

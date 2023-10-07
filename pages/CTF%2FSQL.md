@@ -1,4 +1,4 @@
-- # 目录
+# 目录
 	- [[CTF/SQL/示例]]
 	- [[CTF/SQL/各种攻击方式]]
 	- [[CTF/SQL/闭合方式]]
@@ -9,4 +9,6 @@
 	- [[CTF/SQL/读写文件]]
 - # 参考
 	- https://www.cnblogs.com/kagari/p/12635654.html#%E5%85%B6%E4%BB%96%E6%8A%A5%E9%94%99%E6%B3%A8%E5%85%A5
-	-
+- # SQLMap Tamper脚本
+	- https://github.com/kill02lc/bypass-tamper
+-

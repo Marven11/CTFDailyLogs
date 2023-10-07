@@ -1,4 +1,4 @@
-tags:: 计算机, Hack
+tags:: 计算机, Hack/领域
 
 - # 目录
 	- [[CTF/WEB]]
