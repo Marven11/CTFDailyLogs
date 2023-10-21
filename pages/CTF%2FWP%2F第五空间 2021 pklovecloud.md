@@ -1,3 +1,5 @@
+tags:: [[CTF/PHP/反序列化]]
+
 - # 思路
 	- pop
 	- 利用指针将nova指向neutron即可

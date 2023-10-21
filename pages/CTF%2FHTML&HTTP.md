@@ -1,4 +1,4 @@
-- # cookie
+# cookie
 	- 某些时候 cookie 可能是突破口
 	- 信息泄漏
 	- [[CTF/数据收集]]
@@ -25,11 +25,14 @@
 			  X-Cluster-Client-IP: 127.0.0.1
 			  WL-Proxy-Client-IP: 127.0.0.1
 			  Proxy-Client-IP: 127.0.0.1
+			  Y-Forwarded-For: 127.0.0.1
 			  Fastly-Client-Ip: 127.0.0.1
 			  True-Client-Ip: 127.0.0.1
 			  ```
 	- Referer
 		- Referer: http://www.google.com
+	- RPAFheader Y-Forwarded-For
+		- Apache的配置指令，设置后会使用`Y-Forwarded-For`的值作为真实IP
 - # 301跳转
 	- 有时301跳转带有body而浏览器不会显示
 - # robots.txt

@@ -2,6 +2,7 @@
 	- 使用环境变量等方式控制php执行c库中的函数，从而绕过php自带的disable_function安全机制
 - # 参考
 	- https://www.lxscloud.top/2022/04/15/PHP-Bypass-disable_function/
+	- [[CTF/PHP/FFI]]
 - # 提示
 	- 下面的方式都需要写入文件，实际操作时可以考虑使用[[CTF/PHP/利用FTP进行文件写入]]进行文件写入
 - # 方式一

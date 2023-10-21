@@ -7,7 +7,7 @@
 	- [[CTF/PHP/反序列化]]
 - # 绕过
 	- [[CTF/PHP/WAF绕过]]
-	- [[CTF/PHP/php.ini绕过]]
+	- [[CTF/PHP/user.ini]]
 	- [[CTF/PHP/弱类型]]
 - # 反混淆
 	- [[CTF/PHP/反混淆]]

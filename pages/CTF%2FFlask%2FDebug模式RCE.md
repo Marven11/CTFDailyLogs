@@ -2,7 +2,7 @@ tags:: CTF/RCE, werkzeug
 
 - https://ctf.anzu.link/pages/204626/
 - # 原理
-	- 读取到某些敏感信息后，利用敏感信息算出和受害者同样的PIN, 然后使用PIN控制flask执行命令
+	- 读取到某些敏感信息后，利用敏感信息算出和目标同样的PIN, 然后使用PIN控制flask执行命令
 	- 有时没开debug模式，也可以通过`/console`看到终端
 	- 貌似对werkzeug通用
 - # PIN生成方法

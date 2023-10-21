@@ -3,4 +3,3 @@
 	- 打印所给变量
 - `<?phpinfo()?>`
 - `<script language="php"></script>`
-- eval中的利用

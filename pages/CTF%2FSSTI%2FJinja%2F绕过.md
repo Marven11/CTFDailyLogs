@@ -1,4 +1,4 @@
-- # 常见绕过手法
+# 常见绕过手法
 	- `{{`
 		- `{% if ... %}1{% endif %}`
 	- 关键字
@@ -18,6 +18,8 @@
 		- `config|string()|list()|attr(dict(p=aa,op=bb)|join())(7)`
 	- 斜杠
 		- `config|string()|list()|attr(dict(p=aa,op=bb)|join())(279)`
+	- `%`
+		- `(()|safe).__doc__`里面有
 - # 利用 request 对象绕过
 	- 题目: Confusion1
 	- ```

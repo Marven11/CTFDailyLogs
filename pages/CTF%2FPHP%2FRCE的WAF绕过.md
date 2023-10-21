@@ -35,4 +35,4 @@ tags:: CTF/RCE, CTF/PHP/WAF绕过， CTF/PHP/无字母数字RCE
 - [[CTF/PHP/无字母数字RCE]]
 - [[CTF/PHP/特殊标签]]
 - # webshell绕WAF技巧
-	- [[CTF/PHP/webshell收集]]
+	- [[CTF/PHP/webshell]]

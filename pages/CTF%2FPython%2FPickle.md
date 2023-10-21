@@ -1,6 +1,9 @@
 tags:: CTF/Python
 
 - > [参考](https://xz.aliyun.com/t/7012)
+- # 原理
+	- pickle实际上是字节码，加载pickle就是执行这串字节码
+	- 我们可以通过构造恶意字节码来调用eval函数，实现RCE
 - # 构造恶意Pickle文件
 	- 某些特定的 Python 代码可以直接被转成 Pickle
 	- 可以：

@@ -1,3 +1,4 @@
+- 国外CTF比较喜欢出Perl的题目
 - 攻防世界-i-got-id-200
 - ```perl
   if ($cgi->upload('file')) { # 如果存在file文件

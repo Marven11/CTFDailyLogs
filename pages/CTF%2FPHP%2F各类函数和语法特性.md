@@ -31,6 +31,7 @@
 		- [[CTF/PHP/绕过disable_function]]
 		-
 - # LD_PRELOAD
+	- 用来[[CTF/PHP/绕过disable_function]]
 	- ```c
 	  #include <stdlib.h>
 	  #include <stdio.h>
@@ -41,8 +42,8 @@
 	    system("/readflag > /tmp/wx.txt");
 	  }
 	  ```
-- # 传入变量名转换
-	- 如果变量名中有 `.` 或者空格，那 PHP 会将其转换成下划线
+- # 传入参数名转换
+	- 如果GET/POST参数名中有 `.` 或者空格，那 PHP 会将其转换成下划线
 - # $_SERVER
 	- `$_SERVER['QUERY_STRING']` 不会进行 url 转义
 - # $_REQUEST
