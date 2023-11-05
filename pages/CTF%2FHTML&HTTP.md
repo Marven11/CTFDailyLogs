@@ -33,6 +33,7 @@
 		- Referer: http://www.google.com
 	- RPAFheader Y-Forwarded-For
 		- Apache的配置指令，设置后会使用`Y-Forwarded-For`的值作为真实IP
+	- post时记得加上数据的类型，如： `Content-Type: application/x-www-form-urlencoded`
 - # 301跳转
 	- 有时301跳转带有body而浏览器不会显示
 - # robots.txt

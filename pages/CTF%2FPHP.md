@@ -9,6 +9,7 @@
 	- [[CTF/PHP/WAF绕过]]
 	- [[CTF/PHP/user.ini]]
 	- [[CTF/PHP/弱类型]]
+	- [[CTF/PHP/webshell]]
 - # 反混淆
 	- [[CTF/PHP/反混淆]]
 - # 语法特性

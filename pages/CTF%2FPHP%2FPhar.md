@@ -1,4 +1,4 @@
-- # 介绍
+# 介绍
 	- phar 类似于压缩包，但除了文件之外，phar 还包含一个被序列化的对象。
 	  当我们用`phar://phar.gif/test.txt`访问 phar 文件`phar.gif`内的文件时，插入其中的对象会被反序列化，并会在之后被销毁（也就是会执行`__destruct()`）。
 - # .phar 文件格式
@@ -84,6 +84,8 @@
 	  //添加压缩的文件（test为其中的内容）
 	  $phar->addFromString("test.txt", "test");
 	  $phar->stopBuffering();
+	  @system("gzip -f phar.phar");
+	  echo 'use phar.phar.gz';
 	  ?>
 	  ```
 - # 利用 Phar 文件

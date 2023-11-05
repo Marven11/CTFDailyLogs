@@ -10,6 +10,8 @@
   select database()
   # 数据库版本名
   select version()
+  # 当前正在执行的语句，可以看到表的结构
+  select Info from information_schema.processlist limit 0,1
   # 表名
   select group_concat(table_name) from information_schema.tables where table_schema=database()
   select(group_concat(table_name)from(mysql.innodb_table_stats)where((database_name)regexp(database())

@@ -22,7 +22,7 @@
 			- 比如：`S:1:"\61"`就是字符串`"a"`
 		- 可以试试通过改变字符串长度实现字符逃逸
 	- 对象
-		- unserialize()会把多余的字符串当垃圾处理，在花括号内的就是正确的，花括号后面的就都被扔掉
+		- unserialize()会把多余的字符串当垃圾处理，读取完后就会丢弃后面的字符
 		- protected 变量
 			- 会被反序列化成这样`S:7:"\00*\00aaaa";`
 		- `O:1:"A":1:`也可以用`O:+1:"A":1:`和`O:1:"A":+1:`代替
@@ -68,3 +68,5 @@
 	- 可以使用[PHPGGC](https://github.com/ambionics/phpggc)自动构建ThinkPHP, Lavaral等的反序列化payload
 - # 参考
 	- [PHP 内置类的应用](https://www.cnblogs.com/iamstudy/articles/unserialize_in_php_inner_class.html#_label1_0)
+- # 另见
+	- [[CTF/PHP/原生类]]配合反序列化可以完成发送HTTP请求之类的操作
