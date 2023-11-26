@@ -1,10 +1,15 @@
-# 各类模块
-	- [[CTF/SSTI/Smarty]]
+# Python
 	- [[CTF/SSTI/Jinja]]
-	- [[CTF/SSTI/Twig]]
 	- [[CTF/SSTI/Tornado]]
-	- [[CTF/SSTI/ERB]]
+	- [[CTF/SSTI/Django]]
+- # PHP
+	- [[CTF/SSTI/Smarty]]
+	- [[CTF/SSTI/Twig]]
+- # JS
 	- [[CTF/SSTI/EJS]]
+	- [[CTF/Pug]]
+- # 其他
+	- [[CTF/SSTI/ERB]]
 	- [[CTF/SSTI/Golang_text_template]]
 - # 判断
 - ![](https://s2.loli.net/2022/01/25/cJiYBydvHVbOShe.jpg)

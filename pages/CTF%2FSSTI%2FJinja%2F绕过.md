@@ -20,6 +20,10 @@
 		- `config|string()|list()|attr(dict(p=aa,op=bb)|join())(279)`
 	- `%`
 		- `(()|safe).__doc__`里面有
+	- 拼接字符串
+		- `|replace('', 'b', count=1)`
+	- 常见获取mro的方式被禁止
+		- `namespace.mro()`
 - # 利用 request 对象绕过
 	- 题目: Confusion1
 	- ```

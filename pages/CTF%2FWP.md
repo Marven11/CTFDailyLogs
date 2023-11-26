@@ -9,7 +9,6 @@
 	- https://fushuling.com/
 		- https://fushuling.com/index.php/2023/05/29/ctfshow%e5%88%b7%e9%a2%98%e8%ae%b0%e5%bd%95%e6%8c%81%e7%bb%ad%e6%9b%b4%e6%96%b0%e4%b8%ad/#header-id-166
 	- http://1.12.48.9/
-	- https://ctf-writeups-archives.gitbook.io/index/
 	- https://boogipop.com/
 	- https://tttang.com/
 	- https://amiaaaz.github.io/
@@ -17,3 +16,6 @@
 	- DONE https://note.tonycrane.cc/writeups/rctf2022/
 	- https://pankas.top
 	- https://guokeya.github.io
+	- https://laworigin.github.io
+	- https://www.zhaoj.in/
+	- https://l1nyz-tel.cc/2023/6/25/CISCN2023-HN/

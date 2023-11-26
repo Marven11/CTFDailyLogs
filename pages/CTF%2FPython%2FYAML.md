@@ -13,4 +13,5 @@ tags:: CTF/Python
 		          update: !!python/name:eval
 		          items: !!python/name:list
 		  ```
--
+- # DDoS
+	- `{a: &b [*b]}`

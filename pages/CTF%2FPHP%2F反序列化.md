@@ -36,6 +36,7 @@
 				  $s = serialize($t);
 				  ```
 		- `__wakeup`绕过：修改类的键数量
+		  id:: 64f02a3a-500c-41de-80fa-f565b1030a3b
 		  collapsed:: true
 			- ```php
 			  <?php
@@ -64,6 +65,20 @@
 		- 快速反序列化：参考[[CTF/WP/数博会 贵阳杯]]
 		  id:: 64b5744d-1d6c-43e5-95d5-2121b31d0d57
 	- 自定义序列化对象在序列化后以C开头，[例题](((64b2aacc-598b-4be7-b7d4-48230820277e)))
+	  id:: 64f02a3a-fbd3-41a2-90dd-34399046a38a
+		- `ArrayObject`
+			- 在PHP7及以下版本中其序列化后以`C`开头，在PHP8中`ArrayObject`序列化后仍然以O开头
+			- ArrayObject序列化的格式中含有后方数据的字符数量，如果修改了其中的字符串则需要同时修改ArrayObject最前方的长度。
+				- ```text
+				  C:11:"ArrayObject":95:{x: ...省略
+				    ^名字长度         ^ 后方的字符数量
+				  ```
+			- ```php
+			  $o = 123123; // 这是原来的对象
+			  $a = new ArrayObject([114 => 514]);
+			  $a -> o = $o; // 把它塞进ArrayObject里
+			  $o = $a; // 最后反序列化$a后其的开头就是C而不是O或者a，可以用来绕过WAF
+			  ```
 - # 工具
 	- 可以使用[PHPGGC](https://github.com/ambionics/phpggc)自动构建ThinkPHP, Lavaral等的反序列化payload
 - # 参考

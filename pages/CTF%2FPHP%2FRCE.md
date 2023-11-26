@@ -23,7 +23,7 @@ tags:: RCE
 		- `passthru()`
 		- `proc_open()`
 - # 无参数
-	- [[CTF/PHP/无参数注入]]
+	- [[CTF/PHP/无参数RCE]]
 - # 绕过
 	- [[CTF/PHP/RCE的WAF绕过]]
 -

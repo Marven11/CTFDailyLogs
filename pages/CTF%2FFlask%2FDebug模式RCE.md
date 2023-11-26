@@ -20,7 +20,7 @@ tags:: CTF/RCE, werkzeug
 			- 一般在对应网卡（如 eth0）的文件中：`/sys/class/net/eth0/address`
 		- `[1]`: 基于两个文件内容生成，各个OS的生成方法不同，以下是Linux的生成方法：
 			- 获取"/etc/machine-id"或"/proc/sys/kernel/random/boot_id"的内容
-			- 获取/proc/self/cgroup的内容，然后按照`/`分段，获取最后一段
+			- 获取/proc/self/cgroup的内容，然后**把每一行**按照`/`分段，获取最后一段并拼接
 			- 拼接上面获得的两段bytes
 - # PIN生成脚本
 	- 新版flask的生成方法和老版不一样

@@ -66,4 +66,22 @@
 		- [参考](https://www.leavesongs.com/PENETRATION/some-tricks-of-attacking-lnmp-web-application.html)
 - ## realpath()
 	- 会将软链接解析成真实的路径，但是不会解析伪协议，所以会将`file:///flag.txt`解析成`file:`文件夹下的`flag.txt`
-	-
+- ## unlink
+	- unlink不会使用`php_stream_open_wrapper_ex`正规化路径，所以不会删除形如`a.txt/.`的路径
+	- 避免文件被unlink删除，可以这样：
+		- ```shell
+		  ➜  ~ touch a.txt
+		  ➜  ~ php 
+		  <?php
+		  unlink("a.txt/.");
+		  ?>
+		  PHP Warning:  unlink(a.txt/.): Not a directory in Standard input code on line 2
+		  
+		  ```
+	- ```text
+	      查看php源码，其实我们能发现，php读取、写入文件，都会调用php_stream_open_wrapper_ex来打开流，而判断文件存在、重命名、删除文件等操作则无需打开文件流。  
+	  
+	      我们跟一跟php_stream_open_wrapper_ex就会发现，其实最后会使用tsrm_realpath函数来将filename给标准化成一个绝对路径。而文件删除等操作则不会，这就是二者的区别。
+	  
+	      所以，如果我们传入的是文件名中包含一个不存在的路径，写入的时候因为会处理掉“../”等相对路径，所以不会出错；判断、删除的时候因为不会处理，所以就会出现“No such file or directory”的错误。
+	  ```

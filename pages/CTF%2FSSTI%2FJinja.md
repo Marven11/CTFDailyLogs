@@ -1,4 +1,4 @@
-- # 目录
+# 目录
 	- [[CTF/SSTI/Jinja/基本思路]]
 	- [[CTF/SSTI/Jinja/示例]]
 	- [[CTF/SSTI/Jinja/绕过]]
@@ -10,3 +10,5 @@
 	- [中文文档](http://docs.jinkan.org/docs/jinja2/templates.html)
 	- [焚靖](https://github.com/Marven11/FenJing)
 	- [一篇很好的参考文章]([[CTF/SSTI/Jinja/一篇很好的参考文章]])
+	- https://xz.aliyun.com/t/11079
+	-
