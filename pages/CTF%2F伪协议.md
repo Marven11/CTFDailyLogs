@@ -29,8 +29,10 @@
 	- 绕开死亡`die`
 		- 某些题目会在文件的开头加入类似`<?php die();`的内容，让我们无法正常写入webshell, 我们可以使用base64解码或者其他方式破坏掉前面的`die`
 		- `php://filter/write=string.strip_tags|convert.base64-decode/resource=`
+		- `convert.iconv.UCS-2LE.UCS-2BE`可以用于两两交换字符
 	- php在解析伪协议时会先urldecode伪协议，所以可以使用二次编码绕过WAF
 	  id:: 64673efa-c544-4ad7-9b9b-920b148d0b26
+	- 基于filter报错进行读取文件：[[CTF/PHP/基于PHP伪协议报错实现文件读取]]
 	- 所有filter
 		- ```php
 		  zlib.*

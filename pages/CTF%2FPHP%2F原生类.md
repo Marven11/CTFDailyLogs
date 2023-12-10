@@ -14,7 +14,7 @@
 	        'user_agent'=>"test\r\nCookie: PHPSESSID=0mrbj32r0ptfcnf7l6kmmgh1c4\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: $l\r\n\r\n$s"
 	    )
 	  );
-	  echo urlencode(serialize($a));
+	  echo base64_encode(serialize($a));
 	  // 利用：$a->notexist();
 	  ?>
 	  ```

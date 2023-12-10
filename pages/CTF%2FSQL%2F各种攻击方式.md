@@ -22,7 +22,8 @@
 - # 注入方向
 	- 向 cookie 注入
 	- 向 x-forward-for 注入
--
+- # with rollup万能密码
+	- [[CTF/WP/SWPU2019 Web6]]
 - 二次注入
 - 宽字节
 - 脚本批量注入

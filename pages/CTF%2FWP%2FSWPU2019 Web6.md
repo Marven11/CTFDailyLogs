@@ -1,4 +1,6 @@
-# 登陆
+tags:: [[CTF/SQL]]
+
+- # 登陆
 	- username填`' or 1 group by passwd with rollup having passwd is NULL#`，密码不填
 	- 原理
 		- 原表格

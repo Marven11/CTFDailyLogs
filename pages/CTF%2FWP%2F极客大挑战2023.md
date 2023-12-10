@@ -843,8 +843,9 @@
 	- 焚靖v0.5.10会在比赛后发布，应该是可以秒掉这一题
 - # klf_3
   collapsed:: true
-	- 新版焚靖直接RCE（新版比赛后发布）
+	- 新版焚靖直接RCE的
 	- 分析了一下WAF, 自动化思路：[[CTF/WP/klf_3的SSTI自动化绕过]]
+	  collapsed:: true
 	- 源码：
 	  collapsed:: true
 		- ```python

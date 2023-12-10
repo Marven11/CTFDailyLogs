@@ -12,6 +12,7 @@
 	- [[CTF/SSTI/ERB]]
 	- [[CTF/SSTI/Golang_text_template]]
 - # 判断
-- ![](https://s2.loli.net/2022/01/25/cJiYBydvHVbOShe.jpg)
+- ![cJiYBydvHVbOShe.jpg](../assets/cJiYBydvHVbOShe_1701532187092_0.jpg)
 	- 输入{{7*'7'}}，返回 49 表示是 Twig 模块
 	- 输入{{7*'7'}}，返回 7777777 表示是 Jinja2 模块
+	-
