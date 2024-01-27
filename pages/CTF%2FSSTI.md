@@ -2,6 +2,7 @@
 	- [[CTF/SSTI/Jinja]]
 	- [[CTF/SSTI/Tornado]]
 	- [[CTF/SSTI/Django]]
+	- [[CTF/SSTI/web.py]]
 - # PHP
 	- [[CTF/SSTI/Smarty]]
 	- [[CTF/SSTI/Twig]]

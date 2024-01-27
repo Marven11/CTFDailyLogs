@@ -17,8 +17,7 @@
 	- `exp(710)`
 	- `exp(~1)`
 - # 堆叠注入
-	- where id=1; show tables;
--
+	- `where id=1; show tables;`
 - # 注入方向
 	- 向 cookie 注入
 	- 向 x-forward-for 注入

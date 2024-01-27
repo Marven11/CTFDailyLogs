@@ -1,6 +1,7 @@
 # 示例和技巧合集
 	- https://github.com/AabyssZG/WebShell-Bypass-Guide
 	- https://github.com/LandGrey/webshell-detect-bypass/tree/master/webshell/php
+	- https://splitline.github.io/PHPFuck/
 - # 测试webshell绕过强度
 	- https://n.shellpub.com/
 	- D盾
@@ -20,3 +21,5 @@
 		- 难以分析if跳转条件依赖外部输入的代码
 	- 参考：
 		- https://zhuanlan.zhihu.com/p/197553954
+- # 参考
+	- [[阿里云 第三届伏魔挑战赛]]
