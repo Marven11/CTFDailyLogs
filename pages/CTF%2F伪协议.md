@@ -73,6 +73,9 @@
 	- [[CTF/PHP/Phar]]
 - # `file://`
 	- 表示文件，如`file:///etc/passwd`
+	- php中`file://`除了直接写绝对路径，还可以写`file://<ip-or-domain>/<path>`
+	  id:: 65b3d87d-c0d2-45b0-8736-6cdec74a9406
+		- 也就是说支持`file://localhost/etc/passwd`的格式
 - # `dict://`
 	- 发送TCP数据，感觉不如`gopher://`
 - # `glob://`

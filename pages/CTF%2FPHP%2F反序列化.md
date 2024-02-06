@@ -67,6 +67,7 @@
 	- 自定义序列化对象在序列化后以C开头，[例题](((64b2aacc-598b-4be7-b7d4-48230820277e)))
 	  id:: 64f02a3a-fbd3-41a2-90dd-34399046a38a
 		- `ArrayObject`
+		  id:: 6569d71e-f0f4-4d99-961c-e306b814b20e
 			- 在PHP7及以下版本中其序列化后以`C`开头，在PHP8中`ArrayObject`序列化后仍然以O开头
 			- ArrayObject序列化的格式中含有后方数据的字符数量，如果修改了其中的字符串则需要同时修改ArrayObject最前方的长度。
 				- ```text
