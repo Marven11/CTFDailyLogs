@@ -467,6 +467,9 @@ collapsed:: true
 			  }
 			  ```
 	- `begin{y0u_kn0w_w3nzhou_di4lect}`
+- # where is crazyman v1.0
+  collapsed:: true
+	- 大黑屋在秋叶原
 - ---
 - # fake_n
   collapsed:: true
@@ -609,6 +612,7 @@ collapsed:: true
 		  ```
 	- ![beginctf_fc.png](../assets/beginctf_fc_1706709541224_0.png)
 - # real checkin xor
+  collapsed:: true
 	- 因为key^secret == "ez_python_xor_reverse"，所以"ez_python_xor_reverse" ^ secret == key
 	- 写出脚本
 		- ```python
