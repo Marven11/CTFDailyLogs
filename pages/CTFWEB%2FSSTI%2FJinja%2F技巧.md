@@ -1,0 +1,2 @@
+- [[CTFWEB/SSTI/Jinja/寻找包含 sys 模块的类]]
+- {{embed ((64259f13-0d14-4e84-a803-0b3b864163f8))}}

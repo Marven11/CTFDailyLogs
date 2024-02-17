@@ -1,0 +1,20 @@
+-
+- # Python
+	- [[CTFWEB/SSTI/Jinja]]
+	- [[CTFWEB/SSTI/Tornado]]
+	- [[CTFWEB/SSTI/Django]]
+	- [[CTFWEB/SSTI/web.py]]
+- # PHP
+	- [[CTFWEB/SSTI/Smarty]]
+	- [[CTFWEB/SSTI/Twig]]
+- # JS
+	- [[CTFWEB/SSTI/EJS]]
+	- [[CTFWEB/Pug]]
+- # 其他
+	- [[CTFWEB/SSTI/ERB]]
+	- [[CTFWEB/SSTI/Golang_text_template]]
+- # 判断
+- ![cJiYBydvHVbOShe.jpg](../assets/cJiYBydvHVbOShe_1701532187092_0.jpg)
+	- 输入{{7*'7'}}，返回 49 表示是 Twig 模块
+	- 输入{{7*'7'}}，返回 7777777 表示是 Jinja2 模块
+	-

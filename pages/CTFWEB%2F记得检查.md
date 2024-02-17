@@ -1,0 +1,19 @@
+## http
+- 备份文件
+- index.php~
+- phpmyadmin
+- github dumpall
+- 换 POST 的数据类型（比如`application/json`）
+- ## php
+- 能否在传入字符串的位置传入数组
+- phpinfo()
+- ## python
+- SSTI
+- 有时可以在路径中进行 SSTI: /api/{ssti}
+- ## linux
+- 能否读取/etc/hosts 和 /proc/net/arp
+- 试试通过/proc/self/fd/3 等来读取文件
+- ## sql
+- 是否为整形注入
+- flag 可能就藏在 flag 表里面，不需要读取表名和列名
+-

@@ -1,0 +1,12 @@
+# whois
+- 查询DNS所有者
+- # DNS记录查询
+- 可以查询包括TXT记录在内的所有记录
+- ((62f362fa-73a1-4242-8587-6dbfa0f79b1e))
+- # 用域名来表示本地IP在内的任意IP
+- `xip.io`
+- `nip.io`
+- `ip6.name`
+- `2408-8207-1850-2a60--4c8.ipv6-literal.net`
+	- windows内置功能
+-

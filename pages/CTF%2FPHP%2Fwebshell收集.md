@@ -1,5 +1,0 @@
-- https://github.com/AabyssZG/WebShell-Bypass-Guide
-- https://github.com/LandGrey/webshell-detect-bypass/tree/master/webshell/php
-- # 测试webshell绕过强度
-	- https://n.shellpub.com/
-	- D盾
