@@ -1,4 +1,4 @@
-tags:: CTF/Redis
+tags:: CTFWEB/Redis
 
 - # 思路
 	- 绕过wakeup实现POP

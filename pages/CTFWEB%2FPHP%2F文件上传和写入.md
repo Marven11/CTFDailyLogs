@@ -1,5 +1,5 @@
-alias:: CTF/PHP/文件上传, CTF/PHP/文件写入
-tags:: CTF/PHP/WAF绕过
+alias:: CTFWEB/PHP/文件上传, CTFWEB/PHP/文件写入
+tags:: CTFWEB/PHP/WAF绕过
 
 - # 文件名
 	- {{embed [[CTFWEB/PHP/特殊后缀名]]}}
@@ -22,3 +22,4 @@ tags:: CTF/PHP/WAF绕过
 	- 在检测到恶意后缀名时，有时服务器不是拒绝存入文件，而是在存入文件后删除。
 	- 这时我们就可以在恶意文件存入后，删除前访问此文件。
 	-
+-

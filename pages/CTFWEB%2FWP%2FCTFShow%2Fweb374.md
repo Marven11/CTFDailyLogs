@@ -1,4 +1,4 @@
-tags:: CTF/XXE
+tags:: CTFWEB/XXE
 
 - # 思路
 	- 无回显XXE [[CTFWEB/XXE]]

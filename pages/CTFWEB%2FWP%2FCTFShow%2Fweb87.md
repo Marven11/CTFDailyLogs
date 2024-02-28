@@ -1,4 +1,4 @@
-tags:: CTF/PHP/文件上传和写入, CTF/PHP/WAF绕过
+tags:: CTFWEB/PHP/文件上传和写入, CTFWEB/PHP/WAF绕过
 
 - # WP
 - ```php

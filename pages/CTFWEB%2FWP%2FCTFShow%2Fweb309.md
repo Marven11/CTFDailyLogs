@@ -1,4 +1,4 @@
-tags:: CTF/伪协议, CTF/RCE, CTF/PHP/CGI
+tags:: CTFWEB/伪协议, CTFWEB/RCE, CTFWEB/PHP/CGI
 
 - Gopher 伪协议 [[CTFWEB/伪协议]]打FastCGI
 - # 反序列化
@@ -66,5 +66,6 @@ tags:: CTF/伪协议, CTF/RCE, CTF/PHP/CGI
 - # Gopher打SSTI
 - 用Gopherus生成Payload
 - 需要一个存在的文件，填写`/var/www/html/index.php`
+-
 -
 -

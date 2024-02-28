@@ -1,4 +1,4 @@
-alias:: CTF/PHP/user.ini
+alias:: CTFWEB/PHP/user.ini
 
 - 可以利用`.user.ini`来改变PHP的设置
 - `auto_prepend_file`

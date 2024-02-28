@@ -1,4 +1,4 @@
-tags:: CTF/JS/原型链污染
+tags:: CTFWEB/JS/原型链污染
 
 - [参考](https://blog.csdn.net/Leaf_initial/article/details/131529071#t3)
 - # 思路

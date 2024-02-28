@@ -1,4 +1,4 @@
-tags:: CTF/Python
+tags:: CTFWEB/Python
 
 - # payload
 	- 针对5.1 ~ 5.3版本的full_loader函数

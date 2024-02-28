@@ -1,4 +1,4 @@
-tags:: RCE, CTF/Shell/WAF绕过
+tags:: RCE, CTFWEB/Shell/WAF绕过
 
 - # bash特性
 	- bash可以通过`$((进制#数值))`的方式转换进制，比如说`$((2#100))`表示4

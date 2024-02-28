@@ -1,4 +1,4 @@
-tags:: CTF/PHP/文件写入
+tags:: CTFWEB/PHP/文件写入
 
 - # 准备
 	- pip安装pyftpdlib,创建一个main.py(内容如下)，然后在同级创建ftp文件夹，里面放你的文件

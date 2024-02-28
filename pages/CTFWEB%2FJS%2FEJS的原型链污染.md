@@ -1,4 +1,4 @@
-tags:: CTF/JS/原型链污染, CTF/NodeJS/EJS, CTF/NodeJS
+tags:: CTFWEB/JS/原型链污染, CTFWEB/NodeJS/EJS, CTFWEB/NodeJS
 
 - > 原型链污染+EJS=RCE
 - # 原理

@@ -1,6 +1,6 @@
 title:: CTFWEB/WP/WMCTF2020 Web Check in 2.0
 
-- tags:: CTF/伪协议
+- tags:: CTFWEB/伪协议
 - # 思路
 	- 官方题解新姿势： ((64673efa-c544-4ad7-9b9b-920b148d0b26))
 	- 其他思路：可以使用zlib压缩，然后string.tolower破坏字节流，然后再解压

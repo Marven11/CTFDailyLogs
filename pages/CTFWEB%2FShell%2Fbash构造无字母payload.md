@@ -1,4 +1,4 @@
-tags:: RCE, CTF/Shell/WAF绕过
+tags:: RCE, CTFWEB/Shell/WAF绕过
 
 - # 主要套路
 	- 使用进制转换计算出数字

@@ -1,4 +1,4 @@
-tags:: CTF/Zip
+tags:: CTFWEB/Zip
 
 - # 思路
 	- 使用zip创建软链接欺骗realpath函数，让realpath将一个伪协议解析成一个路径，从而使用伪协议操纵readfile函数读取flag

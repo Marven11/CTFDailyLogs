@@ -1,4 +1,4 @@
-tags:: CTF/Python/YAML, CTF/伪协议
+tags:: CTFWEB/Python/YAML, CTFWEB/伪协议
 
 - # 任意文件读取
 	- 读取/proc/self/cmdline得知源码在/app/app.py

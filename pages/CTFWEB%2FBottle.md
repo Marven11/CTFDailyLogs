@@ -1,4 +1,4 @@
-tags:: CTF/Python
+tags:: CTFWEB/Python
 
 - 一个python的http server框架
 - # 模板

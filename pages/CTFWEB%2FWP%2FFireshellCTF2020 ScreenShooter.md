@@ -1,4 +1,4 @@
-tags:: CTF/PhantomJS
+tags:: CTFWEB/PhantomJS
 
 - # 思路
 	- PhantomJS打CVE-2019-17221做文件任意读取

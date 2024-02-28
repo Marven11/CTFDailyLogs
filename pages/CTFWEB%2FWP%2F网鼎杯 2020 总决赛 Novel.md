@@ -1,4 +1,4 @@
-tags:: CTF/PHP/RCE
+tags:: CTFWEB/PHP/RCE
 
 - # 思路
 	- 通过写入PHP文件中的模板字符串进行RCE

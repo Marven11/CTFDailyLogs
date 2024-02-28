@@ -1,4 +1,4 @@
-tags:: CTF/PHP/文件上传, CTF/RCE
+tags:: CTFWEB/PHP/文件上传, CTFWEB/RCE
 
 - # 利用session向文件中写入文件
 	- php session 的 ID 是可以在 cookie 中自定义的

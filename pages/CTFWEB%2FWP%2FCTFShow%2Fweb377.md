@@ -1,4 +1,4 @@
-tags:: CTF/XXE
+tags:: CTFWEB/XXE
 
 - # 思路
 	- XXE,题目过滤了`http`

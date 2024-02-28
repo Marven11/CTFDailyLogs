@@ -1,4 +1,4 @@
-tags:: CTF/JS/弱类型
+tags:: CTFWEB/JS/弱类型
 
 - ```js
   var express = require('express');

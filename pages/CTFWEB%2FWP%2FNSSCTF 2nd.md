@@ -1,4 +1,4 @@
-tags:: CTF/ChatGPT, CTF/SSTI/Tornado
+tags:: CTFWEB/ChatGPT, CTFWEB/SSTI/Tornado
 
 - # php签到
 	- 使用文件名为每一个字符都url编码后的`b.php/.`，也就是`%62%2e%70%68%70%2f%2e`，即可上传webshell

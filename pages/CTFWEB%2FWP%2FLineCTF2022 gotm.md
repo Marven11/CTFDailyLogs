@@ -1,4 +1,4 @@
-tags:: CTF/SSTI/Golang_text_template, CTF/Golang
+tags:: CTFWEB/SSTI/Golang_text_template, CTFWEB/Golang
 
 - # 思路
 	- 打root_handler的SSTI拿到secret_key，然后伪造JWT token

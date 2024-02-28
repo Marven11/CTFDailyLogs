@@ -1,4 +1,4 @@
-tags:: CTF/Python
+tags:: CTFWEB/Python
 
 - [[CTFWEB/SSTI/Jinja]]
 - [[CTFWEB/SSTI/Twig]]

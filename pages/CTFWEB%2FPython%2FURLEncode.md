@@ -1,4 +1,4 @@
-tags:: CTF/Python
+tags:: CTFWEB/Python
 
 - # 行为不一致
   id:: 64aa797b-5c66-46bd-8e25-dd7a6c1a85ac

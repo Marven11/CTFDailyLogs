@@ -1,4 +1,4 @@
-tags:: CTF/RCE
+tags:: CTFWEB/RCE
 
 - # 思路
 	- 普通强过滤shell RCE

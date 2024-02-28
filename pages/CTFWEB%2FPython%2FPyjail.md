@@ -1,4 +1,4 @@
-tags:: CTF/Python, CTF/RCE
+tags:: CTFWEB/Python, CTFWEB/RCE
 
 - 参考
 	- https://zhuanlan.zhihu.com/p/578966149

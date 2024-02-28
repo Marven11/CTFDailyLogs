@@ -1,4 +1,4 @@
-tags:: CTF/SSTI/Smarty
+tags:: CTFWEB/SSTI/Smarty
 
 - # 打CVE
 	- ```python

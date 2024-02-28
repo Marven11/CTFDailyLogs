@@ -1,4 +1,4 @@
-CTF/SQL/闭合方式
+CTFWEB/SQL/闭合方式
 title:: CTFWEB/SQL/闭合方式
 
 - 字符串可以没有包裹

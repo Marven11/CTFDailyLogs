@@ -1,6 +1,6 @@
 tags:: RCE
 
-- 参考： [[CTF/WP/CTFSHow/web386]]
+- 参考： [[CTFWEB/WP/CTFShow/web386]]
 - # 施工中
 	- 扫描，记录：
 		- ```

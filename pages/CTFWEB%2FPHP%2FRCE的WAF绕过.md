@@ -1,4 +1,4 @@
-tags:: CTF/RCE, CTF/PHP/WAF绕过， CTF/PHP/无字母数字RCE
+tags:: CTFWEB/RCE, CTFWEB/PHP/WAF绕过， CTFWEB/PHP/无字母数字RCE
 
 - `'`
 	- `"`

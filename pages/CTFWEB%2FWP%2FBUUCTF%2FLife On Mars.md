@@ -1,4 +1,4 @@
-tags:: CTF/SQL
+tags:: CTFWEB/SQL
 
 - # 题解
 - ![a](https://s1.328888.xyz/2022/08/08/0FHYI.png)

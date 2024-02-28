@@ -1,1 +1,1 @@
-tags:: CTF/JS, CTF/RCE
+tags:: CTFWEB/JS, CTFWEB/RCE

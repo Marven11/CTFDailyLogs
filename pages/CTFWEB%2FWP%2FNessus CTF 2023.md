@@ -1,4 +1,4 @@
-tags:: CTF/ChatGPT
+tags:: CTFWEB/ChatGPT
 
 - # Rose
 	- flask-login

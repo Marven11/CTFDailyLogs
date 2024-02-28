@@ -1,4 +1,4 @@
-tags:: CTF/PHP/原生类, CTF/WP/GDOUCTF2023
+tags:: CTFWEB/PHP/原生类, CTFWEB/WP/GDOUCTF2023
 
 - > 复现
 - # POP

@@ -1,4 +1,4 @@
-tags:: CTF/Nginx, CTF/SSRF
+tags:: CTFWEB/Nginx, CTFWEB/SSRF
 
 - 读nginx记录，发现一个隐藏的网页，访问得到flag
 - # 反序列化

@@ -32,3 +32,4 @@ title:: CTFWEB/WP/CTFShow/web386
 - # WP
 	- 查看秘密路径
 	- 发现`alsckdfy/check.php`，使用`page.php`读取发现flag
+-

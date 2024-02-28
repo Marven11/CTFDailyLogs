@@ -1,4 +1,4 @@
-tags:: CTF/RCE, werkzeug
+tags:: CTFWEB/RCE, werkzeug
 
 - https://ctf.anzu.link/pages/204626/
 - # 原理

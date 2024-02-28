@@ -1,4 +1,4 @@
-tags:: CTF/Python
+tags:: CTFWEB/Python
 
 - > [参考](https://xz.aliyun.com/t/7012)
 - # 原理

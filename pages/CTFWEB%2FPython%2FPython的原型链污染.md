@@ -1,4 +1,4 @@
-tags:: CTF/Python
+tags:: CTFWEB/Python
 
 - # 前置知识点
 	- python中每一个函数都有globals dunder，我们可以通过修改对象的globals dunder属性来修改`__file__`等全局变量

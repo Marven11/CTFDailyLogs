@@ -1,4 +1,4 @@
-tags:: CTF/JS/WAF绕过, CTF/JS/弱类型, CTF/RCE
+tags:: CTFWEB/JS/WAF绕过, CTFWEB/JS/弱类型, CTFWEB/RCE
 
 - # 基本思路
 	- 绕过弱类型验证和waf实现rce

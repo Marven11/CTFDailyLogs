@@ -1,4 +1,4 @@
-tags:: CTF/RCE, CTF/Shell
+tags:: CTFWEB/RCE, CTFWEB/Shell
 
 -
 - # dash

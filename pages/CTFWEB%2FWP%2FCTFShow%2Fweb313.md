@@ -1,4 +1,4 @@
-tags:: CTF/PHP/CGI
+tags:: CTFWEB/PHP/CGI
 
 - # 路线
 - php-cgi会将路径中的参数解析成它的启动参数
