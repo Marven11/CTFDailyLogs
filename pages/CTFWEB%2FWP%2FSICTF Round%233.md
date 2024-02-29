@@ -29,5 +29,6 @@
 -
 - # 没做
 	- EZ_SSRF: 一眼php fpm ssrf
+		- 然而官方WP是访问`admin.php`(
 	- Not just unserialize: 打这个[[CTFWEB/从env到RCE]]
 	-

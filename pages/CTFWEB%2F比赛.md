@@ -7,4 +7,4 @@ tags:: CTFWEB
 	- 网站貌似无了
 - https://tools.qsnctf.com/
 - https://www.ctfhub.com/#/
--
+- https://hello-ctf.com/Event/
