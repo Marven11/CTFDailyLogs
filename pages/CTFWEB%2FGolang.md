@@ -11,4 +11,7 @@
 		  ```
 - 随机数的种子默认为1
 - go.http CRLF
--
+- # gorm
+	- 因为golang struct的特殊设计而存在缺陷，如果传入的struct某一项为空的话gorm会认为这一项根本没有被赋值，导致最终的sql语句中没有对应过滤条件
+	- https://xz.aliyun.com/t/13870
+	-
