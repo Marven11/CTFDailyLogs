@@ -22,7 +22,7 @@
 	- 大概是[[CTFWEB/Zip]]，打一下 ((65d9fefc-9834-4cd9-bb87-ae06590683df)) 应该就行了
 - # Vidarbox
 	- > 施工中
-	- 应该是 [[CTFWEB/XXE]] ，打一下``file://``[[伪协议]]加上 ((64301d45-52ef-4288-a4f1-f268848799a7)) 就行了
+	- 应该是 [[CTFWEB/XXE]] ，打一下``file://``[[CTFWEB/伪协议]]加上 ((64301d45-52ef-4288-a4f1-f268848799a7)) 就行了
 	- 需要端口21，手上暂时没有能用的vps, 先保存一下exp
 		- payload: `../../xxx.com/evil16`
 		- `ftp.py`

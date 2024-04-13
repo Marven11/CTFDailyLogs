@@ -19,6 +19,7 @@ tags:: Hack/领域
 	- [[CTFWEB/Log4j2]]
 	- [[CTFWEB/CRLF]]
 	- [[CTFWEB/SSRF]]
+	- [[CTFWEB/NOSQL]]
 - # WP
 	- [[CTFWEB/WP]]
 - # 资源
