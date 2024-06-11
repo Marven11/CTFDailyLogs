@@ -25,4 +25,7 @@
 - # 解混淆
 	- https://blog.csdn.net/weixin_43411585/article/details/123437953
 	- https://blog.csdn.net/freeking101/article/details/121668637
--
+- # unicode的解析问题
+	- ```js
+	  req.session.guestǃ=true // 感叹号是unicode里的，是属性名的一部分
+	  ```

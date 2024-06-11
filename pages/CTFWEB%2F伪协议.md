@@ -1,5 +1,6 @@
 - [PHP官方文档](https://www.php.net/manual/en/wrappers.php)
 - # `php://`
+  id:: 66363328-deca-4ae5-a4d2-762a1ecc9636
 	- 各种编码的加解密
 		- ```
 		  base64编码，读取文件：

@@ -16,6 +16,7 @@
 		- https://amiaaaz.github.io/2023/03/28/linectf2023-wp/
 	- DONE https://note.tonycrane.cc/writeups/rctf2022/
 	- https://pankas.top
+		- [spring ssti](https://pankas.top/2024/02/12/%E6%8E%A2%E7%B4%A2spring%E4%B8%8Bssti%E9%80%9A%E7%94%A8%E6%96%B9%E6%B3%95/)
 	- https://guokeya.github.io
 	- https://laworigin.github.io
 	- https://www.zhaoj.in/

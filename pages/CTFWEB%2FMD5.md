@@ -7,6 +7,16 @@ id:: 65d1dc32-93ea-4f09-baf9-fb484b8a10f6
 	  b = b"\x4d\xc9\x68\xff\x0e\xe3\x5c\x20\x95\x72\xd4\x77\x7b\x72\x15\x87\xd3\x6f\xa7\xb2\x1b\xdc\x56\xb7\x4a\x3d\xc0\x78\x3e\x7b\x95\x18\xaf\xbf\xa2\x02\xa8\x28\x4b\xf3\x6e\x8e\x4b\x55\xb3\x5f\x42\x75\x93\xd8\x49\x67\x6d\xa0\xd1\xd5\x5d\x83\x60\xfb\x5f\x07\xfe\xa2"
 	  
 	  ```
+	- 纯文本
+		- ```php
+		  <?php
+		  $s = md5("TEXTCOLLBYfGiJUETHQ4hAcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak")
+		  ==
+		  md5("TEXTCOLLBYfGiJUETHQ4hEcKSMd5zYpgqf1YRDhkmxHkhPWptrkoyz28wnI9V0aHeAuaKnak");
+		  var_dump($s);
+		  ?>
+		  
+		  ```
 - # md5 加密后仍以 0e 开头的字符串
 	- `0e215962017`
 	- `0e648480234123608719206828286222`
