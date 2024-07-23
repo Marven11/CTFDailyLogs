@@ -60,6 +60,13 @@
 	- 3.限制请求只为http协议
 	- （1）采取302跳转
 	    （2）采取短地址
+- # 指向localhost的url
+	- http://newyork.localtest.me
+	- http://mysite.localtest.me
+	- http://redirecttest.localtest.me
+	- http://sub1.sub2.sub3.localtest.me
+	- http://bugbounty.dod.network
+	- http://spoofed.burpcollaborator.net
 - # Nodejs 在HTTP请求中伪造HTTP请求
   id:: 63c7fc34-474b-48bd-a4f8-5c5a68188c89
 	- 在旧版的Nodejs中`http.get(url, f)`不会判断输入url是否合法

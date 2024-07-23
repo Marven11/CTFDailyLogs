@@ -47,6 +47,20 @@ tags:: CTFWEB/Python
 	- jinja
 		- 语法标识符`{{`等可以被污染
 			- [参考](https://jinja.palletsprojects.com/en/3.1.x/api/#jinja2.Environment)
+			- ```python
+			  {
+			    "__init__": {
+			      "__globals__": {
+			        "app": {
+			          "jinja_env": {
+			            "variable_start_string": "[#",
+			            "variable_end_string": "#]",
+			          }
+			        }
+			      }
+			    }
+			  }
+			  ```
 		- 渲染时拼接的文件头可以被污染
 - # 示例
 	- ```python

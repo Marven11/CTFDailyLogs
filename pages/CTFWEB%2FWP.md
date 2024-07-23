@@ -7,6 +7,7 @@
 	- https://www.lxscloud.top/2022/04/15/PHP-Bypass-disable_function/
 	- https://www.ctfiot.com/writeup
 	- https://cyc1e183.github.io/
+	- https://exp10it.io/
 	- https://fushuling.com/
 		- https://fushuling.com/index.php/2023/05/29/ctfshow%e5%88%b7%e9%a2%98%e8%ae%b0%e5%bd%95%e6%8c%81%e7%bb%ad%e6%9b%b4%e6%96%b0%e4%b8%ad/#header-id-166
 	- http://1.12.48.9/
@@ -24,4 +25,4 @@
 	- https://entroychang.github.io/2023/03/13/Pug-SSTI
 	- https://github.com/SycloverTeam/SycloverBlogs
 	- https://p1kap1.github.io
--
+	- https://9bie.org/
