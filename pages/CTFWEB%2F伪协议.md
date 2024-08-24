@@ -19,6 +19,7 @@
 		- 通过错误的编码转换，我们可以在文件内容的开头加入某些字符，这样我们就可以在文件的开头写入任意内容，并实现RCE
 		- [参考](https://tttang.com/archive/1395/)
 		- [Payload生成](https://github.com/wupco/PHP_INCLUDE_TO_SHELL_CHAR_DICT)
+		  id:: 66b4eb0a-b8af-4977-a90e-e56b3cf2986e
 		- 如果是`include_once`或者`require_once`那可能要配合 ((636665b7-cd42-4bd2-a685-f5e5cc4f5ec7))
 	- 让php崩溃，从而让临时文件留在/tmp中
 	  id:: 636665b7-767d-440c-8482-bb5e1dc0933c
@@ -34,6 +35,9 @@
 	- php在解析伪协议时会先urldecode伪协议，所以可以使用二次编码绕过WAF
 	  id:: 64673efa-c544-4ad7-9b9b-920b148d0b26
 	- 基于filter报错进行读取文件：[[CTFWEB/PHP/基于PHP伪协议报错实现文件读取]]
+	- 利用编码转换在文件内容前后加上字符
+		- https://www.ambionics.io/blog/wrapwrap-php-filters-suffix
+		- 可以利用其输出包含文件内容的JSON
 	- 所有filter
 		- ```php
 		  zlib.*
@@ -57,6 +61,14 @@
 		- `data://text/plain;base64,`
 	- php中也可以是`data:xxx`
 		- [[CTFWEB/WP/Phuck2]]
+	- `data://`其中的`text`可以换成`localhost`，绕过`parse_url`
+	  id:: 66adf55c-36a2-468b-81db-ee02adcdce2d
+		- 例题: ((66adf65b-9144-44e3-b41e-37b0fd38d504))
+		- ```php
+		  $f = "data://localhost/plain,123";
+		  $s = parse_url($f); # .host == "localhost"
+		  var_dump(file_get_contents($f)); # "123"
+		  ```
 - # `gopher://`
   id:: 62f27746-a352-41d4-b76d-63fc1f7c9e4f
 	- `gopher://127.0.0.1:9000/_xxx`
@@ -72,6 +84,8 @@
 	- 读取某个phar压缩包中的文件
 	- `phar://a.phar/a.txt`
 	- [[CTFWEB/PHP/Phar]]
+	- 从PHP 8.0版本（发布于2020年）开始，`phar://`不再反序列化元数据
+	  id:: 66a359e7-00fa-407c-93ab-64606e9f1637
 - # `file://`
 	- 表示文件，如`file:///etc/passwd`
 	- `file://`除了直接写绝对路径，还可以写`file://<ip-or-domain>/<path>`

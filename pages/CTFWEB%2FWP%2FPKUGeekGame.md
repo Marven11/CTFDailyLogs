@@ -1,4 +1,4 @@
-tags:: [[CTFWEB/HTML&HTTP]]
+tags:: [[CTFWEB/HTML&HTTP]], [[CTFWEB/XSS]]
 
 -
 - `javascript:`伪协议

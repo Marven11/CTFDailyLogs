@@ -29,3 +29,6 @@
 	- ```js
 	  req.session.guestǃ=true // 感叹号是unicode里的，是属性名的一部分
 	  ```
+- # js.map读取
+	- .js.map文件里存放着网站的API路由
+	- https://xz.aliyun.com/t/15315?time__1311=GqjxnD2ieYqqlxGghDy0Q7i%3Dait2Q43x#toc-9

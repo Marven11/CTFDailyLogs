@@ -1,4 +1,4 @@
-tags:: Regex, PCRE
+tags:: Regex, PHP
 
 - [参考](https://www.leavesongs.com/PENETRATION/use-pcre-backtrack-limit-to-bypass-restrict.html)
 - # 原理

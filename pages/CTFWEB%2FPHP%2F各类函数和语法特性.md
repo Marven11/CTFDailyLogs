@@ -51,4 +51,8 @@
 - # $_REQUEST
 	- `$_REQUEST` 中 post 的优先级更高
 	- 由 `phpinfo` 中的 `request_order` 和 `variables_order` 定义
--
+- # PHP Array溢出
+	- array当前元素`$arr[]`的指针上溢出会导致写入失败
+	-
+	- [[CTFWEB/WP/BUUCTF/蓝帽杯 2021 One Pointer PHP]]
+	-

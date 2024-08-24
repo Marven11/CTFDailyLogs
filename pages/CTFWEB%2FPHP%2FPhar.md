@@ -1,6 +1,7 @@
 # 介绍
 	- phar 类似于压缩包，但除了文件之外，phar 还包含一个被序列化的对象。
 	  当我们用`phar://phar.gif/test.txt`访问 phar 文件`phar.gif`内的文件时，插入其中的对象会被反序列化，并会在之后被销毁（也就是会执行`__destruct()`）。
+	- {{embed ((66a359e7-00fa-407c-93ab-64606e9f1637))}}
 - # .phar 文件格式
 	- [文档](https://www.php.net/manual/en/phar.fileformat.php)
 	- 1. `phar`文件头的识别格式是`xxx` + `<?php __HALT_COMPILER(); ?>`，只有这样的格式才能被识别为`phar`文件

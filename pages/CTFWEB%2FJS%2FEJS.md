@@ -1,4 +1,5 @@
 alias:: EJS
+tags:: JS
 
 - # SSTI
 	- [[CTFWEB/SSTI/EJS]]
