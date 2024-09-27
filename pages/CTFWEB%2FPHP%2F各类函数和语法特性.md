@@ -12,7 +12,7 @@
 - [[CTFWEB/PHP/巧用exit()]]
 - [[CTFWEB/PHP/运算优先级]]
 - [[CTFWEB/PHP/用处特殊的函数]]
-- # disable_function
+- # disabled_function
 	- ```
 	  disable_functions = system,exec,shell_exec,passthru,proc_open,proc_close, proc_get_status,checkdnsrr,getmxrr,getservbyname,getservbyport, syslog,popen,show_source,highlight_file,dl,socket_listen,socket_create,socket_bind,socket_accept, socket_connect, stream_socket_server, stream_socket_accept,stream_socket_client,ftp_connect, ftp_login,ftp_pasv,ftp_get,sys_getloadavg,disk_total_space, disk_free_space,posix_ctermid,posix_get_last_error,posix_getcwd, posix_getegid,posix_geteuid,posix_getgid, posix_getgrgid,posix_getgrnam,posix_getgroups,posix_getlogin,posix_getpgid,posix_getpgrp,posix_getpid, posix_getppid,posix_getpwnam,posix_getpwuid, posix_getrlimit, posix_getsid,posix_getuid,posix_isatty, posix_kill,posix_mkfifo,posix_setegid,posix_seteuid,posix_setgid, posix_setpgid,posix_setsid,posix_setuid,posix_strerror,posix_times,posix_ttyname,posix_uname
 	  ```
@@ -30,10 +30,10 @@
 		  ```
 	- 绕过
 		- https://blog.csdn.net/jvkyvly/article/details/120197390#t10
-		- [[CTFWEB/PHP/绕过disable_function]]
+		- [[CTFWEB/PHP/绕过disabled_function]]
 		-
 - # LD_PRELOAD
-	- 用来[[CTFWEB/PHP/绕过disable_function]]
+	- 用来[[CTFWEB/PHP/绕过disabled_function]]
 	- ```c
 	  #include <stdlib.h>
 	  #include <stdio.h>

@@ -346,7 +346,7 @@
 	- 思路
 		- 利用异或绕过WAF
 		- 利用create_function实现eval RCE
-		- 打`disable_functions`: [[CTFWEB/PHP/绕过disable_function]]
+		- 打`disabled_functions`: [[CTFWEB/PHP/绕过disabled_function]]
 	- 绕过WAF
 		- fuzz出所有可用的字符，然后异或绕过
 		- 自用模块
