@@ -6,6 +6,8 @@ tags:: CTFWEB/Python
 	- 我们可以通过构造恶意字节码来调用eval函数，实现RCE
 - # 绕WAF
 	- payload生成：[[CTFWEB/Python/Pickle/opcode]]
+	- python 3.14之后内置函数`breakpoint`支持接收参数`commands`，可以执行任意PDB命令
+		- 然后用命令`p f"{__import__('os')}"`就可以实现任意eval
 	- 字符串
 		- pickle要想支持字符串拼接可以考虑拿到`builtins.getattr`
 		- 需要RCE可以找找其他被import的函数
@@ -21,7 +23,6 @@ tags:: CTFWEB/Python
 			      ],
 			  )
 			  ```
-		-
 	- 字母`R`被禁用
 		- 用GLOBAL找到危险函数并用OBJ调用
 		- ```python

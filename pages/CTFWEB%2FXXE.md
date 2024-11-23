@@ -85,6 +85,9 @@
 	  >
 	  %all;
 	  ```
+- # 使用字符编码绕过
+	- 参考[[CTFWEB/WP/2024网鼎杯 web01]]
+	- {{embed ((6720a4bd-9205-4b92-ae10-7d1018bc6691))}}
 - # 制作恶意xlsx文件
 	- 修改后缀为zip并解压一个xlsx文件，修改里面的xml文件，再压缩
 	- 示例：[[CTFWEB/WP/BUUCTF/网鼎杯 2020 青龙组 filejava]]

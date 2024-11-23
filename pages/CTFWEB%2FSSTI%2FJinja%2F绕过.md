@@ -24,6 +24,12 @@
 		- `|replace('', 'b', count=1)`
 	- 常见获取mro的方式被禁止
 		- `namespace.mro()`
+	- `__import__`
+		- `__loader__.load_module("os")`
+	- `__mro__`
+		- `__bases__`
+	- `__globals__`
+		- python高版本直接使用`lipsum.__builtins__`或者`g.pop.__builtins__`拿builtins
 - # 利用 request 对象绕过
 	- 题目: Confusion1
 	- ```

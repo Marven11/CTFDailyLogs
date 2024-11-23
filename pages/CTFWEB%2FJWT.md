@@ -26,7 +26,7 @@
 	  
 	  ```
 	- ```python
-	  import jwt
+	  import jwt # pip install PyJWT
 	  
 	  header = {
 	      "alg": "none",

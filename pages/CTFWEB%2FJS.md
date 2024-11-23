@@ -23,6 +23,7 @@
 - # 注释
 	- JS 也可以使用 html 的注释`<!-- -->`
 - # 解混淆
+	- https://dev-coco.github.io/Online-Tools/JavaScript-Deobfuscator.html
 	- https://blog.csdn.net/weixin_43411585/article/details/123437953
 	- https://blog.csdn.net/freeking101/article/details/121668637
 - # unicode的解析问题
