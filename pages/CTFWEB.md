@@ -1,4 +1,4 @@
-tags:: Hack/领域
+tags:: 笔记资源
 
 - # 编程语言
 	- [[CTFWEB/PHP]]
