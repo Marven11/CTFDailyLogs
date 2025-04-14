@@ -71,7 +71,7 @@
  ;; https://github.com/logseq/awesome-logseq#css-themes
  ;; Example:
  ;; :custom-css-url "@import url('https://cdn.jsdelivr.net/gh/dracula/logseq@master/custom.css');"
- :custom-css-url "@import url('https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/custom.css');"
+ ;; :custom-css-url "@import url('https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/custom.css');"
 
  ;; Specify a custom js import
  ;; This option take precedence over your local `logseq/custom.js` file
